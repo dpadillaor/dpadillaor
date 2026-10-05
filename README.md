@@ -1,93 +1,77 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <img alt="David Padilla Orenga — Computer Vision · AI · Robotics · Automation" src="assets/header-light.svg" width="100%">
-</picture>
+<div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/ribbon-dark.svg">
-  <img alt="Computer Vision · SLAM · Structure from Motion · PyTorch · CUDA · C++ · Python · Rust · LLM agents · automation" src="assets/ribbon-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <img src="assets/hero-light.svg" alt="David Padilla Orenga — freelance engineer in computer vision, AI, robotics and automation" width="100%">
 </picture>
 
-<br>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-David_Padilla_Orenga-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/david-padilla-orenga-7a232a134/)
+[![sfmkit](https://img.shields.io/badge/sfmkit-Structure_from_Motion-FF5A1F?style=for-the-badge&labelColor=0A0A0A)](https://github.com/dpadillaor/sfmkit)
+![Valencia](https://img.shields.io/badge/Valencia-🇪🇸_remote-C9CBD1?style=for-the-badge&labelColor=0A0A0A)
 
-I'm **David**, a freelance engineer working across **computer vision, AI, robotics and automation**. Industrial and mechatronics engineer by training, with a master's in **computer vision, AI & robotics** and a long background in simulation before that. One idea runs through everything I build: **it has to work in real conditions, not just on the benchmark.**
+![Profile views](https://komarev.com/ghpvc/?username=dpadillaor&style=flat-square&color=FF5A1F&label=profile+views)
+&nbsp;![Followers](https://img.shields.io/github/followers/dpadillaor?style=flat-square&color=FF5A1F&labelColor=0A0A0A)
 
-From a 3D map that a robot can query in plain language to the agent that sorts a company's email, the job is the same: find what breaks outside the lab, replace it with something better, and measure it.
+</div>
 
-<br>
+Engineer working where **computer vision, AI, robotics and automation** meet. I take systems that look great on a
+benchmark and make them hold up in the real world: on a moving camera, in a hospital dataset, on a client's hardware,
+inside a company's daily processes. Find what breaks, replace it with something better, measure it.
 
-## `01` &nbsp;What I do
+---
+
+## 🧭 What I actually do
+
+```
+Computer vision  ──►  Detection, segmentation and multi-object tracking that survive *your* camera
+3D & SLAM        ──►  Reconstruction, localization, place recognition, open-vocabulary 3D maps
+Robotics         ──►  Perception a robot can use: persistent instances you can query in plain language
+AI / ML          ──►  Datasets, training, fine-tuning and evaluation that is honest about failure cases
+Automation       ──►  LLM agents and workflows for companies, with a human in the loop and a log of everything
+```
+
+```mermaid
+flowchart LR
+  CAM(["camera · video<br/>RGB-D · documents"]) --> PER{{"perception<br/>YOLO · SAM · CLIP"}}
+  PER --> TRK["tracking<br/>who moved where"]
+  PER --> MAP["3D map<br/>SLAM · SfM · instances"]
+  PER --> DOC["understanding<br/>LLM extraction"]
+  TRK --> OUT["metrics<br/>and reports"]
+  MAP --> OUT
+  MAP --> ROB["robot<br/>queries the scene"]
+  DOC --> AGT["agents<br/>and workflows"]
+  AGT --> OUT
+  OUT --> PROD(["in production<br/>measured on your hardware"])
+  ROB --> PROD
+
+  classDef src fill:#FF5A1F,stroke:#C23D0C,stroke-width:2px,color:#FFFFFF
+  classDef core fill:#0A0A0A,stroke:#0A0A0A,color:#FFFFFF
+  classDef mid fill:#FFE3D7,stroke:#FF5A1F,color:#0A0A0A
+  class CAM,PROD src
+  class PER core
+  class TRK,MAP,DOC,ROB,AGT,OUT mid
+```
+
+---
+
+## 🔭 Selected work
 
 <table>
 <tr>
-<td width="50%" valign="top">
-
-**`VIDEO` &nbsp;Detection & tracking**<br>
-Counting, inspecting or following things when off-the-shelf models fail on *your* camera. Fine-tuned to your data, measured on your hardware.
-
-</td>
-<td width="50%" valign="top">
-
-**`ROBOTICS` &nbsp;Semantic 3D understanding**<br>
-Persistent object instances and open vocabulary: ask the map in natural language, no retraining.
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-**`SLAM` &nbsp;Robust localization**<br>
-Low texture, reflections, abrupt motion. I swap the module that fails and benchmark it against the original.
-
-</td>
-<td valign="top">
-
-**`CAPTURE` &nbsp;3D reconstruction**<br>
-Point cloud, mesh or Gaussian splat, with calibrated cameras and a viewer to show it — from capture onwards.
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-**`MODELS` &nbsp;Custom machine learning**<br>
-When no catalogue model answers your question: dataset, training or fine-tuning, and an honest evaluation.
-
-</td>
-<td valign="top">
-
-**`PROCESS` &nbsp;AI automation for companies**<br>
-Reading documents, triaging email, moving data. Workflows and LLM agents with a human in the loop and a log of what they did.
-
-</td>
-</tr>
-<tr>
-<td colspan="2" valign="top">
-
-**`ASSETS` &nbsp;Digital twins** — every asset, where it is and what it reports, kept up to date with real data instead of scattered spreadsheets.
-
-</td>
-</tr>
-</table>
-
-<br>
-
-## `02` &nbsp;Selected work
-
-<table>
-<tr>
-<td width="55%" valign="top">
+<td width="52%" valign="top">
 <a href="https://github.com/dpadillaor/sfmkit"><img src="assets/sfmkit-visor.png" alt="sfmkit viewer: point cloud of Valencia's Plaza de la Virgen, my reconstruction in orange and COLMAP's in blue, with the cameras of fourteen photos and the old photograph" width="100%"></a>
 </td>
-<td width="45%" valign="top">
+<td width="48%" valign="top">
 
-<sub>`OPEN SOURCE` · `STRUCTURE FROM MOTION`</sub>
+**[sfmkit](https://github.com/dpadillaor/sfmkit)** &nbsp;<sub>`OPEN SOURCE`</sub>
 
-### [sfmkit](https://github.com/dpadillaor/sfmkit)
+*Where was this century-old photograph taken from, and what has changed since?*
 
-Structure from Motion written from the geometry up: matching, incremental reconstruction and my own bundle adjustment. From **14 phone photos** of Valencia's Plaza de la Virgen it rebuilds the square within **0.30° of COLMAP**, locates an undated century-old photograph in the model and flags what has changed since.
+Structure from Motion written from the geometry up, with my own bundle adjustment. From **14 phone photos** of
+Valencia's Plaza de la Virgen it rebuilds the square within **0.30° of COLMAP**, places an undated old photograph in the
+model and flags what changed. Ships with a live 3D viewer.
 
-`Python` `NumPy` `SuperPoint` `LightGlue` `COLMAP` `three.js` `Docker`
+`Python` `NumPy` `SuperPoint` `LightGlue` `COLMAP` `three.js`
 
 [Code](https://github.com/dpadillaor/sfmkit) · [Docs](https://dpadillaor.github.io/sfmkit/)
 
@@ -95,141 +79,95 @@ Structure from Motion written from the geometry up: matching, incremental recons
 </tr>
 </table>
 
-<table>
-<tr>
-<td width="50%" valign="top">
+| Project | What I did | Stack |
+|---|---|---|
+| **3D instances that survive loop closure** <br><sub>MSc thesis · [OVO](https://github.com/dpadillaor/OVO)</sub> | Open-vocabulary online 3D mapping lost its object merges after loop closure. Traced it to stale geometry; added local bundle adjustment, a point-ownership conflict system that merges and splits instances from temporal evidence, and a better fusion step. | `CLIP` `SAM 2` `ORB-SLAM2` `Gaussian-SLAM` `Rerun` |
+| **Learned place recognition for colonoscopy SLAM** <br><sub>Research internship · University of Zaragoza</sub> | Replaced Bag of Words in CudaSIFT-SLAM with ColonMapper, a learned global descriptor, ported to C++. Real time in loop closure and map merging; matches BoW and beats it on some sequences. | `C++` `LibTorch` `OpenCV` `C3VD` |
+| **Scouting metrics from match video** <br><sub>Client · sports analytics</sub> | Football tracker that detects and follows players in match footage to extract scouting metrics. | `Detection` `MOT` `Video` |
+| **Digitising an engineering firm** <br><sub>Client · automation</sub> | A database where there was none, automated processes and email, agents for repetitive work, a desktop app for energy-certification workflows and a Flutter app for on-site capture. | `Python` `Flutter` `LLM agents` `n8n` |
+| **Water-meter digital twin** <br><sub>Public sector</sub> | Remote-reading platform for a town's LoRaWAN water meters: consumption, alarms and the state of every meter. | `TypeScript` `LoRaWAN` |
+| [`catastro-scraper`](https://github.com/dpadillaor/catastro-scraper) | Retrieves PDF certificates and location maps from the Spanish Cadastre. | `Python` |
+| [`Sem3_SI_ImageEmbedding`](https://github.com/dpadillaor/Sem3_SI_ImageEmbedding) | Seminar on CLIP-based image embeddings and retrieval. | `CLIP` `Jupyter` |
 
-<sub>`MSC THESIS` · `OPEN-VOCABULARY 3D`</sub>
+> 🔒 Most client work lives in private repos. Happy to walk through it on a call.
 
-#### 3D instances that survive loop closure
+---
 
-[OVO](https://github.com/dpadillaor/OVO) builds, while the camera moves, a 3D map where every object is an instance you can query with text. After a loop closure, instances stopped merging correctly. I traced it to stale geometry and fixed it with **local bundle adjustment**, a **point-ownership conflict system** that merges and splits instances from accumulated temporal evidence, and an improved fusion step.
+## 🎓 Path
 
-`CLIP` `SAM 2` `ORB-SLAM2` `Gaussian-SLAM` `Rerun`
+```mermaid
+%%{init: {"themeVariables": {"cScale0": "#0A0A0A", "cScaleLabel0": "#FFFFFF", "cScale1": "#565656", "cScaleLabel1": "#FFFFFF", "cScale2": "#FF8A5B", "cScaleLabel2": "#0A0A0A", "cScale3": "#FF5A1F", "cScaleLabel3": "#FFFFFF"}}}%%
+timeline
+    title Mechanics, then simulation, then machines that see
+    Engineering : BEng Industrial Engineering · Universitat Jaume I
+        : Mechanical engineering & mechatronics · INSA Lyon
+        : MSc Industrial Engineering
+    Simulation : A long run building and validating simulations
+    Vision, AI & robotics : MSc Computer Vision, AI & Robotics
+        : Research internship in endoscopy SLAM · University of Zaragoza
+        : Thesis on open-vocabulary 3D mapping
+    Freelance : Vision, 3D and automation for clients
+        : Open source · sfmkit
+```
 
-</td>
-<td width="50%" valign="top">
+🇪🇸 Spanish · 🇬🇧 English · 🇫🇷 French
 
-<sub>`RESEARCH INTERNSHIP` · `UNIVERSITY OF ZARAGOZA`</sub>
+---
 
-#### Learned place recognition in colonoscopy SLAM
+## 🛠️ Toolbox
 
-In CudaSIFT-SLAM, a SLAM system for colonoscopy, I replaced Bag-of-Words place recognition with **ColonMapper**, a learned global descriptor. Ported to C++, it runs in **real time** for loop closure and map merging, matches Bag of Words and beats it on some sequences.
+<div align="center">
 
-`C++` `LibTorch` `TorchScript` `OpenCV` `C3VD`
+**Languages**
 
-</td>
-</tr>
-<tr>
-<td valign="top">
+[![Languages](https://skillicons.dev/icons?i=py,cpp,rust,ts,dart,bash&theme=dark)](https://skillicons.dev)
 
-<sub>`CLIENT` · `SPORTS ANALYTICS`</sub>
+**Vision, AI & 3D**
 
-#### Scouting metrics from match video
+[![AI](https://skillicons.dev/icons?i=pytorch,opencv,threejs&theme=dark)](https://skillicons.dev)
 
-A football tracker that detects and follows players in broadcast footage to extract metrics useful for scouting.
+**Apps & infra**
 
-`Detection` `Multi-object tracking` `Video`
+[![Infra](https://skillicons.dev/icons?i=flutter,astro,tailwind,docker,redis,sqlite,linux,git&theme=dark)](https://skillicons.dev)
 
-</td>
-<td valign="top">
+`CUDA` · `LibTorch` · `SAM 2/3` · `CLIP` · `SigLIP` · `YOLO` · `COLMAP` · `Gaussian Splatting` · `Rerun` · `n8n` · `Claude Code`
 
-<sub>`CLIENT` · `AUTOMATION`</sub>
+</div>
 
-#### Digitising an engineering firm, process by process
+---
 
-A database where there was none, manual processes automated, email handled, and agents for the repetitive work — plus a desktop app for energy-certification workflows and a Flutter app for on-site data capture.
+## 📊 Activity
 
-`Python` `Flutter` `LLM agents` `n8n` `Notion API`
+<div align="center">
 
-</td>
-</tr>
-<tr>
-<td valign="top">
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=dpadillaor&theme=transparent" alt="GitHub stats">
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=dpadillaor&theme=transparent" alt="Repos per language">
 
-<sub>`PUBLIC SECTOR` · `DIGITAL TWIN`</sub>
+<img width="62%" src="https://streak-stats.demolab.com?user=dpadillaor&hide_border=true&background=00000000&ring=FF5A1F&fire=FF5A1F&currStreakLabel=FF5A1F&sideLabels=8B949E&dates=8B949E&currStreakNum=8B949E&sideNums=8B949E&stroke=8B949E" alt="Contribution streak">
 
-#### Water-meter network for a municipality
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dpadillaor/dpadillaor/output-3d/profile-3d-dark.svg">
+  <img alt="3D contribution calendar" src="https://raw.githubusercontent.com/dpadillaor/dpadillaor/output-3d/profile-3d-light.svg" width="100%">
+</picture>
 
-Web platform for remote reading of a town's LoRaWAN water meters: consumption, alarms and the state of every meter in one place.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dpadillaor/dpadillaor/output/snake-dark.svg">
+  <img alt="A snake eating my contribution graph" src="https://raw.githubusercontent.com/dpadillaor/dpadillaor/output/snake-light.svg" width="100%">
+</picture>
 
-`TypeScript` `LoRaWAN` `Data pipelines`
+</div>
 
-</td>
-<td valign="top">
+---
 
-<sub>`TOOLS`</sub>
+## 🤝 Let's talk
 
-#### Smaller things
+A camera that should be counting something, a robot that needs to understand its surroundings, a 3D capture to turn
+into something useful, or a company drowning in manual work between its tools: that is my favourite kind of conversation.
+**First I tell you whether it's viable. Then I build it.**
 
-- [**catastro-scraper**](https://github.com/dpadillaor/catastro-scraper) — retrieves PDF certificates and location maps from the Spanish Cadastre.
-- [**Image embeddings with CLIP**](https://github.com/dpadillaor/Sem3_SI_ImageEmbedding) — seminar notebooks on CLIP-based retrieval.
+<div align="center">
 
-</td>
-</tr>
-</table>
+[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/david-padilla-orenga-7a232a134/)
+[![sfmkit](https://img.shields.io/badge/See_sfmkit-FF5A1F?style=for-the-badge&labelColor=0A0A0A&logo=github&logoColor=white)](https://github.com/dpadillaor/sfmkit)
 
-<br>
-
-## `03` &nbsp;Toolbox
-
-| Area | Tools |
-|---|---|
-| **Vision & 3D** | `YOLO` `SAM 2 / SAM 3` `CLIP` `SigLIP` `Perception Encoder` `OpenCV` `SuperPoint` `LightGlue` `COLMAP` `Gaussian Splatting` |
-| **SLAM & geometry** | `ORB-SLAM2` `Gaussian-SLAM` `Bundle Adjustment` `Loop Closure` `Place recognition` `Structure from Motion` |
-| **Machine learning** | `PyTorch` `LibTorch` `TorchScript` `CUDA` `NumPy` `Jupyter` |
-| **Automation & AI agents** | `LLM agents` `Claude Code` `n8n` `Notion API` `Streamlit` |
-| **Languages** | `Python` `C++` `Rust` `TypeScript` `Dart` |
-| **Product & infra** | `Flutter` `Astro` `three.js` `Docker` `Redis` `SQLAlchemy` `Git` |
-| **Visualisation** | `Rerun` `three.js` `PyVista` `Manim` |
-
-<p>
-  <img src="https://img.shields.io/badge/Python-0a0a0a?style=flat-square&logo=python&logoColor=ff5a1f" alt="Python">
-  <img src="https://img.shields.io/badge/C++-0a0a0a?style=flat-square&logo=cplusplus&logoColor=ff5a1f" alt="C++">
-  <img src="https://img.shields.io/badge/Rust-0a0a0a?style=flat-square&logo=rust&logoColor=ff5a1f" alt="Rust">
-  <img src="https://img.shields.io/badge/TypeScript-0a0a0a?style=flat-square&logo=typescript&logoColor=ff5a1f" alt="TypeScript">
-  <img src="https://img.shields.io/badge/PyTorch-0a0a0a?style=flat-square&logo=pytorch&logoColor=ff5a1f" alt="PyTorch">
-  <img src="https://img.shields.io/badge/CUDA-0a0a0a?style=flat-square&logo=nvidia&logoColor=ff5a1f" alt="CUDA">
-  <img src="https://img.shields.io/badge/OpenCV-0a0a0a?style=flat-square&logo=opencv&logoColor=ff5a1f" alt="OpenCV">
-  <img src="https://img.shields.io/badge/Flutter-0a0a0a?style=flat-square&logo=flutter&logoColor=ff5a1f" alt="Flutter">
-  <img src="https://img.shields.io/badge/Docker-0a0a0a?style=flat-square&logo=docker&logoColor=ff5a1f" alt="Docker">
-  <img src="https://img.shields.io/badge/three.js-0a0a0a?style=flat-square&logo=threedotjs&logoColor=ff5a1f" alt="three.js">
-  <img src="https://img.shields.io/badge/n8n-0a0a0a?style=flat-square&logo=n8n&logoColor=ff5a1f" alt="n8n">
-</p>
-
-<br>
-
-## `04` &nbsp;How I work
-
-> **First I tell you whether it's viable. Then I build it.**
-
-| # | Step | Terms |
-|:-:|---|---|
-| `1` | **20-minute call** — you tell me the problem; I tell you whether vision or AI is the right path, or if something cheaper will do. | <sub>free</sub> |
-| `2` | **Feasibility test** — a scoped prototype on your real data, with numbers and a clear report of what works. | <sub>fixed scope & price</sub> |
-| `3` | **Development** — the full system, measured on your hardware, with short demos every week. | <sub>weekly deliveries</sub> |
-| `4` | **Handover** — code, documentation, a video of how it works and a session so your team can maintain it. | <sub>yours, no lock-in</sub> |
-
-<br>
-
-## `05` &nbsp;Background
-
-- **MSc in Computer Vision, Artificial Intelligence & Robotics**
-- **MSc in Industrial Engineering**
-- **BEng in Industrial Engineering** — Universitat Jaume I, Castellón
-- **Mechanical engineering & mechatronics** — INSA Lyon
-- **Research internship** in SLAM for endoscopy — University of Zaragoza
-- 🇪🇸 Spanish · 🇬🇧 English · 🇫🇷 French
-
-<br>
-
-## `06` &nbsp;Let's talk
-
-Got a vision, 3D, robotics or automation problem? Tell me about it — I'll say whether I can help, and if not, who can.
-
-<a href="https://www.linkedin.com/in/david-padilla-orenga-7a232a134/"><img src="https://img.shields.io/badge/LinkedIn-0a0a0a?style=for-the-badge&logo=linkedin&logoColor=ff5a1f" alt="LinkedIn"></a>
-<a href="https://github.com/dpadillaor"><img src="https://img.shields.io/badge/GitHub-0a0a0a?style=for-the-badge&logo=github&logoColor=ff5a1f" alt="GitHub"></a>
-
-<br>
-
-<p align="right"><sub><code>VALENCIA · REMOTE</code> &nbsp;·&nbsp; assets generated by <a href="scripts/build_assets.py"><code>scripts/build_assets.py</code></a></sub></p>
+</div>
