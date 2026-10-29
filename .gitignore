@@ -1,0 +1,4 @@
+__pycache__/
+# made every day by .github/workflows/activity.yml, published on the activity branch
+assets/activity-*.svg
+assets/languages.json

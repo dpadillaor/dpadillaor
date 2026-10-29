@@ -1,0 +1,6 @@
+# For the scripts in scripts/ (the daily workflow installs these)
+numpy==2.5.4
+pillow==12.3.0
+scipy==1.18.1
+fonttools==4.66.1
+brotli==1.2.0

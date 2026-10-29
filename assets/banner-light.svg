@@ -1,0 +1,862 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" font-family="Card,ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+<style>@font-face { font-family: Card; font-weight: 400; src: url(data:font/woff2;base64,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) format('woff2'); }
+@font-face { font-family: Card; font-weight: 700; src: url(data:font/woff2;base64,d09GMgABAAAAABwEABAAAAAAQZAAABunAAI2BAAAAAAAAAAAAAAAAAAAAAAAAAAAGkAbIBypPgZgP1NUQVRMAIFOEQgKyGS5CgE2AiQDg0gLgWYABCAFhCYHIAwHG7g3s6Jmk1Z7Jopqybjkv06gx6D2RzVBJauwAsUDGQfjddoJJyvNrqvnf9Dc8kMMXdHbLEqd0YWiewaO81FzD8jNml0UARsgqFGDgLB2pFoazUKwoaJih1gaGimWmOBpYnKmNFu8Zlr9O1PPz5v0617OlOaZ2r37lKrwlMvXp9OeVlq1+x9gj6HHyDClAWyU1lkF3BCF4AAc6AlKv+b36dI/Ns/sSiHgKlzTgiAkXRh1jdTq2gBD5VR57pLKdgiq216BhRhwglmNf5NJGFGawdddA1ATlJ+a23UyvVDzzA2zX/8DwApU0+aiyzuprBLABLT271XN2vcIwvoUDQ/hEFNRfYfUpdR0rh4eQAGfn1iBggKwdORGyoleJ2kdqTADLtcpSTseara6LkYtLwWux64uxs7dpVyFNP019fXNwbetp30jjJc+bHgICcmcn2+ZUUpzyuk1YYQRQixmcepnuKW2rai8KlCfDupw9ZlEqlmjOuB4uT8gADjxdgcKAQQpCVLaTjjbrrjaFFSbhm578FKzFyJvGICEDwbk3oNULRCwAwBmZojnOUblAehX4vL+ibUBqGgAyNC7t7VM8FyyUpjAHgxdAA6jyBlVf9yzJ0Yr0NZ5ZUbouWsOAojj5xuHA064QOaGbhYfTH78BQnBIyAWLlK0WPHklJKopMiQRStPoRJ6c5WrVKPePCYWTVrMt4DNFzp1+dIyK6yyxjq9+q33FQCEb/HZvrEhZK5nOOY2DmT02EoY6DAuXufY8GB45ck4Bk5jbFyJb/VL/Ru5nk21K5cpMcsdkWZPj5pxciwZz0J89ieB6TwceHh10AVz6Aj7m+SEuuhboAEOCtVorbZqj27UI/qr3tGpyCaxCXyCOuri8uPEg/FgPJVoATGCHgEp3Wjk/Ph8Up9tzyQnpqOnYzcO9kDB7z7PSV10xVoWlW/L7nKmnK8c5+EqdN4M8et6rF6tDxq4NJcAl3AXTStph9t4e9Y+dHdXjqusp/fq3tzX9qE+Nd1wnZ7OyfHkVPIQeZhCoLApHZSvKQcppw6ThymqURnUSGoqdSv1mJu7G99N41bu1up22O0MeADscIGBRwYHciSrDYATyBFQkmulyGFSx0wBAOK6xg83sAEAtKcIrp/BI6OfPWRsYipFIfp7BdTJEJh8CzjxrWvSPWiWcwmXZ6EdGecydfMt2mtAgBbZlSy+gJ0Enox+VJhoGpUWNs1TwPGtXyLxAjt5PBAAcMPTv841xBdBQoJOk1oPMk3pvQAggjvVz5QmQCncDpIUODkDLlhcyThW7J22wyzjuEFIhedIbA5js7PO3gPYMx+4kJ1OTg9pTXI9pL/bF4UuzWglNplt9UeakqVconpRewGgRrxqZP9YSvR7Vrsl0XbafsZnp+M2LICSRyjaEInpMeprIay2Urtn4ULdqsy8h2jlBNml5NnbVLgbRJe0pZ6q77QMUR8RZI+ik6x6Ne8V15/JkLxvsO7FKa4DAJQ8QlG7SEyPUdsKYVVzbrZoa+Naoow8Q1Q1QXYp+fZWHjgbyzAheLtTaauWIVIfQfYoGsNKXXlWnMxkSOwbTDpc46QAoOQRisQnMT1GdQTCSowcp1KLaZIy81wR3xBklxLWGycgG7eOkbXOwKQYrrkbQLJL0wHZgUzrQeyd9gAQGLPCJoj89ESVFoRlY9lg96WHkaZIeWJzsxy6RDeST9mB5UQ5YVmrDgvAvdVy7QWA3/ZREb5rHE6wRcKBK+3Pzj0Mj9HCaLu6VGumcjNEKovbK0Ht7/n9eC7VQDHJfVsUrsAtgZeVGyTJiqxF5i3kf80ROeKyQ9Dwd5MhR13WDqJxs1ktx1w2HV9sM2Vy3BIYsGd+YNZkjZXdtTQAYzWqTFn26gcws4Bq2VVJcT12bH9xoD2yR5Z9n0uo2UUZXzPkxAPa95ccYO+23WZjNrkto8XlczxlMi1DGJ8gexRWYBkzPyc2FzJk9fl5pW8AULJPGCMxPdI7yZF5RKeO4i29XZn5NJF6CLLLbHqBK26GrPWSoPFF+oT0KE5CWabdnJrNWEMDcwvxsBFgaoBWi5vFGMqsowN8CjLaSkfEBwSdnIlPJkvE8TiWHGuwwnTVJ6DAm+MBjcO77MGJcGO5MLspnwpXm36NolvYVZw8pY+knCT0KkH2LfiVNBGjk6Hc0pEwx6W3kzmUS+2yK6HMPtZmAZQ8QqHlJKbHSKchLM3SulF8ouOVmc8XGkSQXWYLClyhC1Dj8E4AndRaiPCAiFTnMoMOHMwkowiMhXDCEOaLRNhLFSsD2y7+7jNEHczP24rQTOYn80ClOdAsGZNKV8gwmDsKTzZhhWHJcO3QB9GtukZ+ATJl3utKCVwYtEKJVLGTkADpO2FK2FqGECpB9iiC2hI0XxX7KTKk6hv0l0FifwKAkkco/PckpsdovAdh+W9ztWIcj323MvJ1wlsJskvJ2Ot1oEagpm0uYuyy5KrUsFKO4emFImtkS43XHQkz/4LY4mvJ/Fx0RIKTJecl605kBPx+xCQoYW2lgDjoWx4KcszsyjcLqEUxY/PSCL4ra/DBt2316I3vJiSSUutK8QGK21aJynSR2q7r/8W9xLBjWO6ytPDa7giiFPGvbO6V2y/bAx/HzDdyxzKTMGc45X7VMoQbIZzUEIjt5s5wkas6IL0ALM5YYiGcX+oDvcIrLGfUSyKRp3XClJb2ulhgGcvxwH/HqztlynkBBg91JIQkhnGLD2Y3NI/zyHziXhvWbiE54WEdTQBsPwwxMRpNjrkcuwwqLl8KIXCp9jEy7WAg9RpfAvWhRIsW7oNFkLSyiKexEtVLI6Qus1F/gFoqh8JOyzVkVj+vdFoCvNBhwZTWOjNkvBohcUDOOmeP4XvOJJlzzj4jvhtnYbWdtu3POV5dnHFzYOi8MXBuTDPmipi4ugdtqedcJJeYg0N6Y/DckvcxkXZyv2O8sRB7xq9JnabZGIROrm2go66fPs0JQ1qoOa4DfNdGqd2hcGMoiw/tpBk2HvuzIrDZDbphNAH06lgPQMrtp0YeIgwZgAJE3i6O4zOqZwDYiOnH8dNWsIQLcXMeDegpOgEA845nVAegCXC+R19eVVsRAKjZDUbEFRDs8IQCAEhARwH0EkB/7MVxqCMDaHBqXBz3+di240iKYabG7/f3MhiPSLQ4conmSFOhRqNm87X7sWYATH6ChHptGeUnS2VQxcis9Wr3TwAAwMxTDyIBM8eNOmKH7Xu1bbYaUwcCoAM+ywjLY4D9uRKl4EgSyPczDci6fUYXw4z3+h8DpGvA5Q4A08umQeooiHoIUYvBQaxt3TkFUM/ljbi3Gp3jM3H7G8HinbG6c9WE8/fvwWEHAK4K2nfictfiwdte0EhFvi37TTv3qP32ew0AFgdMZOh2c3X16mqlvuopv6iV1FBtWy55QwOSVfHewVsw+OdEhnATlU6GKBA3+v605n8R8ITP2yZmpNfl3oOSeFSnBTMQrBAWyTgIjip5M4huI+Tz3G+9+94sonSaLuhwxkfPwU83TQmDPwnZL3vZsUnFPQUTbv8mZTUYovZq/y+t/yC4+nD9Qlv5ltaXpPwNSGev2mxq5QPVnhdwYr2GAlhVSNqZNLhN0DDWod8+g33A02+Jvl46mKr9PNHUiJMH/yZgaxDsI0LVg+vbOBa+W2hj4oXlz7V2Iq4raPestN98BncKjMyrlgqI4OspCnANyFPD8sPHlEPynCrC/Kp0+34LxJF0cFogHWfXikbhOnFNevFE3pK02op/7mTKJE6wM3nXonR+3c1t3G7Xsq2cvqKF8praG7Wj4E5D5lXfKVkh46yRu2BktZ5J56HdrgNbaa65agXw4BJotu2rLVLCnJgbn8nEfnqK3MkdHXBH1YS7If+57j7R3YLEddaSS+zgH3Odda1ZIBdgS24rD4JsO5SIYoyWb9M+ie/4s+6J3qnskTQRewOn3yI9vEQxu5uE+3WMZqwnhD/u+qiWVWHD0j2aySvSMKQVlYx9yG2tb5SvI/XDhSfcL36LtE9elwLbiqfNW2HqBo9sHaVVpxWp8W96A8lP3bst99rjHmPqpX+O8/bFue849m6wGSFByW30HH2r/WOut+b59IdH3aiPztpkNt8N9nvxbW/YUzwTKIopggV7lUa3sk25mpJGHw5DsUD5nL4GCxSFKGvHVnn8+B/quj6BZjobHf1VjGewEPZHXiTp5LfblVCIq7bBxFsTKpsOFSsMUw2lThqYkz6g0B7uhx0lJkRgDzPDz+zoVeutkdOTvOrM7BGB2UiRJ3PVOdtSJPOSMvCd6SBmXUbcXQyL+Vn56LYKlk+1Zk2UUSIurb3yew4+HliUa6ZzGo6GoG7ZlKsFNQF4zWeExnAVcL+MhoCTsl9Nc0q16UkwONxRNeGQ+GuzAf0a5dN/ti/Nou8VtPc2T0W7Bip9JZ4ar1KPmwmWU4YzOTVw4HlEuxFzM18kt5377F3GtImQoCHWL7+dFjWNr8jFos9Su3aExJGupzOlcaf+J+hxaOOZPLF8tdnSGxPIoTwK9v2hrfyLIG25SFE8oAJlrSeeEGxS21/wXJqGUNHAzx/+COiPW+QcQZHtbfiBh7y+D+6WthBBGwqB6nIRLphzL8ztFWqb3cOkUOy3n7nAzUQH8fR2HsrIdlJ1ioLCu4QgyqvmeRqJVnL9X44DHWTtEzIWh+/qtP/ketx0eE7sdiUP5lpHquctT+EsnUFRd5lYKSuOoy0YqewLIXV/Vp6kYq5DtMK7bsB0W4wHNFHs8r1Fu2GH2pxCaOXmU3rHvfN1dOiVPWvUiwOscR0H0u7tWuoHG05vPseLf5QbOD9cV+X3nIayTRpZbG0F0ZFL0micpjMbKQm3AtCmT7FuNlFstNqYPT00RwLVKmsyireescPuY/64aILHi3TPD/8ro8oPbb57XlLJ3tERQxfr+0s7d45wbHEaM93yGWzXeez8wHiPAn7tfumzJrjKpeLmSFG5f8MxfVH/90NtEQqhXv8aJcqfbELl321D48n4q65we553ulwOcmvVx5/xe1+f3A8LstLWlalYDeXu/utwf0+TkUF3hrpEdKeP4/fjtU0j1zr8h0/dQXzRoMGnN7qms1gu6cchjJhULY7UK+KVkaXWZ05KrhRHlSrbxRUiUZNIKmruf3KVonZ5lKFSDCkT19TGiJiKJEpiTKUxUl1oLgr/JKGIP4UXgW7icH3MMU+j5+WYeiho6J3ubdg6/SxC1YStMtwKkRN9SQ83X/PxudajfNg30XRXaN/k0ESqiTDozOW6RGIlwWrfEn4XXhBzDPmpmXV5ZcvCAmJDA7PT2whp8wtLK6zluU3z9bTouPxkVrFEIQlWfon9zfFPhQJiQkaqctSnpm3C9jVu0ezR/9iqJbvMZOjXy+dur+PniZeL8/hhOtFykQ54BkOUvVwZRe5gC2rRQltQA184IFohWi/kNwTZ0MJIX/hEzCo36fsNZaZsAWefjVv0tW2ircbnkR51fJVouUjFXz4ehBCTqiSRevlyuUbW2qTEyo1vflm2f3RbRFBs3QLnpDatWwIjqig83BZFv4PA+gPVW4IGsUCk0nu3Ml2t1M41Ger0VNH2n3O3N1ptw7Lr9Xo3KV8l0vP63zpCrBdHQNqE7SBazfZJSE9JzNTXFdbYioSSMF6yWAep5hPKHSbfg7vN0BGuCQ7VSH4cNoUGMNiM7SYQY5VqOsKLCAzhJ8dp2Cd5EcGimBT5loYh73YP91U+QwVDPjYPj3qfIUjD2mq4NIIJSZWJclS3IlJfqSq4IF8GFZFRGOzfLakQCpok3eJmSD3gqnIgHqfvl4WUZIoiHfkc5fSgtJZgzTW+GfnX/6/0/Ip6Q8BiX0kNXzBHogN3grTYX5zka5v1EgvhXfCd3bFVSSx2ypujTqvSVmBF9Zm4BBt3jx8W3MDw8cpJIhqci1JTNEZdLVRn6PLSyP2m/m/av7lgukAWiwZMEEysabFW5NpyJJH8MJUkx5ZbMd8Kkwe5HdVpq1yFipmFlelfHOAC57j3fuIq7dIFf0ZGXq/LWboqMOOY9+qSgYXXVcMAC/UDsO1A6rkxh2UVns2uMnGC+kk1l3p2Ea4Bh5hcLYoqlrULlorFLfwoQbM4y7Sxb1bdoOnP0QCjzWSIkkUV14ggmBjMCg5mT5+dBcFfBvG4WGhQUCjG5QWu03mDkW8ZnLiK/JIhPBQSelDU37RGXSeOKVXECQvzJcMFidd9tbNna30ZvkoGvX0IfhqVnBwFvnNwNLdQuvz+b6c/0umLd7coPLAauUeL9PZnpdbhqJeqUeV19K1V8fmW9HhVpUfVbos7/eOZ3y4urx34Xrd/Fj7Lv/sVpDAPZeUaWCfLcs2+hwo9aqUxz3bCc1wZmrUSYurpd/cuUjNghatVZoUQTjdYBzECF54+ai0FGL5t1hErZIzxkvzSj1mdKUx0trctdewGT6DCApUhibWxPuDjbSuaPCu+VJ3bctW+yt0545cYyzc/f2PxlEEzllswi0jOD2QGBLECA1lBAcyAgMAwD7CBnYbde16yGTz1/ZlNM7SdU5bosq9t96D5li3ZnW8tCn0/pERkL6nWDSXU39V5D4leN+BTNRTpNqzVe7uw/j8YaK6GdYsTP1p+fW35zSLRv0GDtSdTlN0k0TMDAmR9zcKZ8x3e/eUPRifXi7jiUUpOn5w06pNuJ6med3L3D+vFX2/nBh/EB8Fcw21Qw4d1fWauns1OFPi6SNZuPMf0IuTY1nRPo16BVHEDyzS8gh3g6Ca7mJMDfLamJYVpliffvTN+sI5Yf3yvvWZyzeHgfOrYfrO/+fIryxVLfOf7vPi4UTBgztsI5qyNry3qNrCUb4rjBcIItrfcZjMLx1MbQy2KfUuYiL61wGlFl8Gh0Qi5Nu74lxdpOfQiU2ZOjbHAoSt+caFDXS1obZz6pN8JufTCxuw8c6PeYfE/S8axkGtZP52fwtR+ob8b4HnhwQPWAwcXLrMgc7nloOXAK9k9SImwsJZEGjdtagtgLW06ft4GjhFIY/kIFrzxJSCYzojPmCMPLEz+dYLmhtHm1GbEpasVezOpEvocwOGuFdCMuXYyjSpeHj+slckyMcIWaVpUlDxa7SJaHnUnSZqVLJX3Y9LMkbAWnxqlgm+izx8MOeMPSNhf0JmY3FmQXaDstCXqNObYOKNqX2ku43HAZoE0ITvNnEY/81LBpsALDFclKdRPqcQEOUXVpdnFcyvyk0rtJJz3YQ1BXmy2V5A51ANExILyMl1xemF+Jpbjwm0LKA7YizFz2Ify3Cx/d+P9EhpUPURW3xNmVqAwTJ0TFBWnC+VrIqyeIoWXB0vg4bmsOP6kY7/lbwvUapXtteus6yrg+GrzQevBipBeK3eaU4cshxYp/XQ3V3v7Osu6RXjLUxDaXjXgyKoHJLKiIx7ad2aD/3IL31LZ8Xqrhb2SF4QLq2cwAfw571QchjOFM7Pplcu7l0/GPm9BqEyY4FBzINkiBzI2QxIyoWsOQI13rkSLHT/3hRx9/0rLZW1nsKWpRp5lteWqtjPU0vJDorB3XV93TqG8v2nHZO/BZ+PW8UPPgN/fdGYV95Az0fkA98waq+HCF4bDjYbzjSDU+N3h3Anoyy7dsd7Rxzc23cJuY6eteWap5bFQdiWPLTL3iZfGeGz479Cz+7pfrluSNZGtE+2YhMhGv5NVCgFMhWTwq0lI7lU81bJ2sx/7zOb9Dwb/zIpYv7WOWgs7/C3yZr+KLJTG6O7/9+JHGr1rV4uexa0xsFrC/lCuVmmq9PrzbbnQ+Vx8nDDQY8tXi2VcxzMtUayumtTv+uKgf5aDIqLlviA/c97f2xWLOytoa8OfnvWvizi9/1m68z+Ao6UXZ/JJCgmLpYsLVI7Y2O+PTjJPm2sylYqmEwf+Kv/57j0FfrxrJi3/qh16JraKDj4TnHhuDbdW7iM3p4f9HnL3pvXm3YXIc28iST4Qv99w/gvDhaYzK7lbXIjjW7ln1uX7gnmTb/3PmmfOYYKlYCO85MsLOsASIP/nhQz2TewW1nv42XzT/MMv/yDeeIt7y/+Q8n5TosUQJpLrLcQ885VymL95U9EbVB8WjP77FuM62PcNUiiDXXQHDvetfddOqluyO1bDi81QxXMInB2oM/po77jcd7Qu90fmWpLUat+0fQL44w84dGTdNrfggmC/N5Thw1S37WspeA4Hzxr/2Y16eFjgzmVjgvHLVOrPJwRYapDbjdsp7sl0TnlwlDoxzu81su8Q3X5pn4B7JoJ9P/GJf9rH4nK49A/ukBt12ybEfuhUjA0OGWOhZyeLbN4+4BNbmxgSqJyD8Xk3/kgL/u5m43wprtaT6Ul+UBXevPZMJPz3CxKDw5N42tCciGRVkJD7s2LfeprHbo/oWpk0KyUBuyzfP0Bnvg9KCtZKshMSS4KkLfE5CCkV7y2dNcklvILXU91a6FgNLy4lWRpQuEhO1+CR0t31k8DhEOz6vh5pVXSslhebopL6q8TbdhyoXzbtEX9d3Y01q97v3n724tk9Hu57Oz4UvvrwCxB8YIdZrMMY8jsB9BTIAPA0TuuSgm+CJMC/Y9ipBrj3KH++/3vA67tN9F2d/M7cFfhRqusbTpYy/3cBeHdoH2afMpj3c4BZenr71Iuw+UTsk1ztr2ClW6ZvDDOfBqe3AnBKNhrmvCEWfhSnzrboxKoUA2jgjE3mpEDOjNyCdf6zseHU4wFSAXqGox6f+SwzSO2O7J6FmaBNwMUq2y/eRDTs+1p+ILwtsw1EjEz3joxC+Z+O1zzW1rGERtdQta0YidEJQF4yI7w6BYd+/q5nBFz8dMcUl1Vt/J6CAIBe2DVc4+Yj19jXBAT3CAD4+9t2AgB4GB8/fR+7pw6FvvJv6vsDACDAn8ARejkQ2yJu7W9N86CjoNAPVZgS6mysCiOBaXJSqEI2FeidFfv5GEtQGQbHoz9yEMMYPIt/ha3nuAcZ6HXWWDDjCWbagpXgVpsnAwiFLQx+KSytYTbheGGJhaTa+m6OG8MVqlI7NXBTp6RunZXuqZQtuDe+oSNifiSACaIqZrO2CMLC/lmxpJwL+otLD58T4FWY3xsbuYZH7FAvUB0BfxXnH6iHqcI8CLbaP1mn74/5564/M6j+SJWwDbEVn2jjAzDh/5/XSY0IHIRveyPeDAqAI8vhQIQIAKPg/DgEH6PHoRC4ehyOcLeOswML9+Ps8YrYY/FwIvc0CICTa8vgo2qI681c+pWRgeR6UJqn0XxmNapUs2IS4mvKpG2xQqm/1EoxPKlBjQaWNM28A+elGmar2pkui0jlmqSqe21264Boyv6NLKKFCVOlxkXT5lw8ZblMvbCkeW0/e/sDiylFndSonBBPCaxiXnZUISZ0NHRw4Vv2nZhLI7RwN8PMW3wO5PlzV3MqNTBGvUzWRJSBGMfbjZupQAgAYcuRmFlyWQU=) format('woff2'); }
+
+  .type { animation-fill-mode: both; }
+  @keyframes type { from { width: 0; } to { width: var(--w); } }
+  @keyframes walk { from { transform: translateX(0); } to { transform: translateX(var(--w)); } }
+  @keyframes during { from, to { opacity: 1; } }
+  @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+  .later { opacity: 0; animation: show 0.4s ease-out forwards; }
+  @keyframes show { to { opacity: 1; } }
+  .k { animation: flick 6s steps(1, end) infinite; }
+  @keyframes flick { 0%, 92% { opacity: 1; } 93%, 95% { opacity: 0.15; } 96%, 100% { opacity: 1; } }
+  @media (prefers-reduced-motion: reduce) {
+    .type, .later, .k { animation: none; opacity: 1; }
+    .type { width: var(--w); }
+    .walker { animation: none; opacity: 0; }
+    .walker.last { opacity: 1; }
+  }
+</style>
+<rect width="1280" height="320" fill="#ffffff"/>
+<text x="14" y="22" font-size="18" fill="#8c959f" opacity="1.00">·</text>
+<text x="36" y="22" font-size="18" fill="#8c959f" opacity="0.89">·</text>
+<text x="58" y="22" font-size="18" fill="#8c959f" opacity="0.78">·</text>
+<text x="80" y="22" font-size="18" fill="#8c959f" opacity="0.67">·</text>
+<text x="102" y="22" font-size="18" fill="#8c959f" opacity="0.56">·</text>
+<text x="124" y="22" font-size="18" fill="#8c959f" opacity="0.44">·</text>
+<text x="146" y="22" font-size="18" fill="#8c959f" opacity="0.33">·</text>
+<text x="168" y="22" font-size="18" fill="#8c959f" opacity="0.22">·</text>
+<text x="190" y="22" font-size="18" fill="#8c959f" opacity="0.11">·</text>
+<text x="14" y="44" font-size="18" fill="#8c959f" opacity="0.86">·</text>
+<text x="36" y="44" font-size="18" fill="#8c959f" opacity="0.74">·</text>
+<text x="58" y="44" font-size="18" fill="#8c959f" opacity="0.63">·</text>
+<text x="80" y="44" font-size="18" fill="#8c959f" opacity="0.52">·</text>
+<text x="102" y="44" font-size="18" fill="#8c959f" opacity="0.41">·</text>
+<text x="124" y="44" font-size="18" fill="#8c959f" opacity="0.30">·</text>
+<text x="146" y="44" font-size="18" fill="#8c959f" opacity="0.19">·</text>
+<text x="168" y="44" font-size="18" fill="#8c959f" opacity="0.08">·</text>
+<text x="14" y="66" font-size="18" fill="#8c959f" opacity="0.71">·</text>
+<text x="36" y="66" font-size="18" fill="#8c959f" opacity="0.60">·</text>
+<text x="58" y="66" font-size="18" fill="#ff5a1f" opacity="1.00">·</text>
+<text x="80" y="66" font-size="18" fill="#8c959f" opacity="0.38">·</text>
+<text x="102" y="66" font-size="18" fill="#8c959f" opacity="0.27">·</text>
+<text x="124" y="66" font-size="18" fill="#8c959f" opacity="0.16">·</text>
+<text x="14" y="88" font-size="18" fill="#8c959f" opacity="0.57">·</text>
+<text x="36" y="88" font-size="18" fill="#8c959f" opacity="0.46">·</text>
+<text x="58" y="88" font-size="18" fill="#8c959f" opacity="0.34">·</text>
+<text x="80" y="88" font-size="18" fill="#8c959f" opacity="0.23">·</text>
+<text x="102" y="88" font-size="18" fill="#8c959f" opacity="0.12">·</text>
+<text x="14" y="110" font-size="18" fill="#8c959f" opacity="0.42">·</text>
+<text x="36" y="110" font-size="18" fill="#8c959f" opacity="0.31">·</text>
+<text x="58" y="110" font-size="18" fill="#8c959f" opacity="0.20">·</text>
+<text x="80" y="110" font-size="18" fill="#8c959f" opacity="0.09">·</text>
+<text x="14" y="132" font-size="18" fill="#8c959f" opacity="0.28">·</text>
+<text x="36" y="132" font-size="18" fill="#8c959f" opacity="0.17">·</text>
+<text x="58" y="132" font-size="18" fill="#8c959f" opacity="0.06">·</text>
+<text class="later" style="animation-delay:0.30s;animation-duration:0.01s" x="300" y="72" font-size="15" fill="#ff5a1f" xml:space="preserve" textLength="153.0" lengthAdjust="spacing">david@padilla:~$ </text>
+<rect class="walker" x="453.0" y="60.0" width="8.2" height="15.0" fill="#ff5a1f" opacity="0" style="--w:135.0px;animation:walk 0.67s steps(15) 0.60s both, during 0.67s 0.60s"/>
+<clipPath id="p0"><rect class="type" x="453.0" y="57" width="135.0" height="21.0" style="--w:135.0px;animation:type 0.67s steps(15) 0.60s both"/></clipPath>
+<text x="453.0" y="72" font-size="15" clip-path="url(#p0)" xml:space="preserve" textLength="135.0" lengthAdjust="spacing"><tspan fill="#57606a" font-weight="400">cat mission.txt</tspan></text>
+<g class="later" style="animation-delay:1.47s">
+<text x="818" y="48" font-size="10.0" fill="#e8f5fe">:</text>
+<text x="824" y="48" font-size="10.0" fill="#73c1f7">#</text>
+<text x="830" y="48" font-size="10.0" fill="#79c4f7">#</text>
+<text x="836" y="48" font-size="10.0" fill="#5cbbf4">@</text>
+<text x="842" y="48" font-size="10.0" fill="#52b7f4">@</text>
+<text x="848" y="48" font-size="10.0" fill="#61b9f6">%</text>
+<text x="854" y="48" font-size="10.0" fill="#4eb4f3" class="k" style="animation-duration:8.0s;animation-delay:-2.3s">@</text>
+<text x="860" y="48" font-size="10.0" fill="#6fc1f6">%</text>
+<text x="866" y="48" font-size="10.0" fill="#a4daf8">+</text>
+<text x="884" y="48" font-size="10.0" fill="#d8effc">:</text>
+<text x="890" y="48" font-size="10.0" fill="#d5edfc">-</text>
+<text x="1058" y="48" font-size="10.0" fill="#d7f1fb">:</text>
+<text x="1064" y="48" font-size="10.0" fill="#e0f3fd">:</text>
+<text x="1070" y="48" font-size="10.0" fill="#92cff8">*</text>
+<text x="1076" y="48" font-size="10.0" fill="#65c8ef">%</text>
+<text x="1082" y="48" font-size="10.0" fill="#33bde5">@</text>
+<text x="1088" y="48" font-size="10.0" fill="#4bc2e9">@</text>
+<text x="1094" y="48" font-size="10.0" fill="#56c3ed">@</text>
+<text x="1100" y="48" font-size="10.0" fill="#bce5f9">=</text>
+<text x="1106" y="48" font-size="10.0" fill="#41c7e4">@</text>
+<text x="1112" y="48" font-size="10.0" fill="#2ec3df">@</text>
+<text x="1118" y="48" font-size="10.0" fill="#86ddec">*</text>
+<text x="1124" y="48" font-size="10.0" fill="#2ec4dd">@</text>
+<text x="1130" y="48" font-size="10.0" fill="#89dced" class="k" style="animation-duration:8.2s;animation-delay:-4.3s">*</text>
+<text x="1136" y="48" font-size="10.0" fill="#84d9ed">#</text>
+<text x="1142" y="48" font-size="10.0" fill="#69d1ea">%</text>
+<text x="1148" y="48" font-size="10.0" fill="#59d1e3">@</text>
+<text x="1154" y="48" font-size="10.0" fill="#74dbe5">#</text>
+<text x="1160" y="48" font-size="10.0" fill="#a2e7ed">+</text>
+<text x="1166" y="48" font-size="10.0" fill="#d7f5f7">:</text>
+<text x="1178" y="48" font-size="10.0" fill="#69d6e6">%</text>
+<text x="1184" y="48" font-size="10.0" fill="#34c7dd">@</text>
+<text x="1190" y="48" font-size="10.0" fill="#7ddbea">#</text>
+<text x="1196" y="48" font-size="10.0" fill="#7ed9eb">#</text>
+<text x="1202" y="48" font-size="10.0" fill="#79d9e9">#</text>
+<text x="1208" y="48" font-size="10.0" fill="#8de0ec">*</text>
+<text x="1226" y="48" font-size="10.0" fill="#dae7fe">:</text>
+<text x="1244" y="48" font-size="10.0" fill="#dfecfe">:</text>
+<text x="1250" y="48" font-size="10.0" fill="#e1ecfe">:</text>
+<text x="1256" y="48" font-size="10.0" fill="#cbdefd">-</text>
+<text x="1262" y="48" font-size="10.0" fill="#e4edfe">:</text>
+<text x="1268" y="48" font-size="10.0" fill="#e3edfe">:</text>
+<text x="818" y="58" font-size="10.0" fill="#dff1fd">:</text>
+<text x="824" y="58" font-size="10.0" fill="#cce9fb">-</text>
+<text x="830" y="58" font-size="10.0" fill="#c2e8fa">=</text>
+<text x="836" y="58" font-size="10.0" fill="#a6ddf7">+</text>
+<text x="842" y="58" font-size="10.0" fill="#3bb5ee">@</text>
+<text x="848" y="58" font-size="10.0" fill="#6ec6f3">%</text>
+<text x="854" y="58" font-size="10.0" fill="#9ed7f8">+</text>
+<text x="860" y="58" font-size="10.0" fill="#8cd2f6">*</text>
+<text x="866" y="58" font-size="10.0" fill="#8cd3f5">*</text>
+<text x="1064" y="58" font-size="10.0" fill="#dbf1fc">:</text>
+<text x="1070" y="58" font-size="10.0" fill="#92d4f6">*</text>
+<text x="1076" y="58" font-size="10.0" fill="#d1edfb">-</text>
+<text x="1082" y="58" font-size="10.0" fill="#91d1f7">*</text>
+<text x="1088" y="58" font-size="10.0" fill="#c0e5fb">=</text>
+<text x="1094" y="58" font-size="10.0" fill="#d7eefc">:</text>
+<text x="1106" y="58" font-size="10.0" fill="#e9f9fc">:</text>
+<text x="1112" y="58" font-size="10.0" fill="#49cfde">@</text>
+<text x="1118" y="58" font-size="10.0" fill="#56d3e0">@</text>
+<text x="1130" y="58" font-size="10.0" fill="#e5f9fa">:</text>
+<text x="1136" y="58" font-size="10.0" fill="#39ced9">@</text>
+<text x="1142" y="58" font-size="10.0" fill="#50d5dc">@</text>
+<text x="1148" y="58" font-size="10.0" fill="#3cd0d8">@</text>
+<text x="1154" y="58" font-size="10.0" fill="#4dd4db">@</text>
+<text x="1160" y="58" font-size="10.0" fill="#50d4de">@</text>
+<text x="1166" y="58" font-size="10.0" fill="#33cdd8">@</text>
+<text x="1172" y="58" font-size="10.0" fill="#ddf7f8">:</text>
+<text x="1178" y="58" font-size="10.0" fill="#bceef2">=</text>
+<text x="1184" y="58" font-size="10.0" fill="#59d9db">@</text>
+<text x="1190" y="58" font-size="10.0" fill="#4ed3dc">@</text>
+<text x="1196" y="58" font-size="10.0" fill="#9ae4ee" class="k" style="animation-duration:6.7s;animation-delay:-0.4s">+</text>
+<text x="1202" y="58" font-size="10.0" fill="#c5eff5">-</text>
+<text x="1208" y="58" font-size="10.0" fill="#94e4ea">*</text>
+<text x="1220" y="58" font-size="10.0" fill="#c4f1f3">-</text>
+<text x="1226" y="58" font-size="10.0" fill="#9ae7ea">+</text>
+<text x="1244" y="58" font-size="10.0" fill="#d2e6fe">-</text>
+<text x="1250" y="58" font-size="10.0" fill="#e3f1fe">:</text>
+<text x="1262" y="58" font-size="10.0" fill="#deedfe">:</text>
+<text x="1274" y="58" font-size="10.0" fill="#e7f2fe">:</text>
+<text x="824" y="68" font-size="10.0" fill="#c6ebf9">-</text>
+<text x="830" y="68" font-size="10.0" fill="#6fcdf0" class="k" style="animation-duration:4.2s;animation-delay:-3.7s">%</text>
+<text x="836" y="68" font-size="10.0" fill="#77cff1">#</text>
+<text x="842" y="68" font-size="10.0" fill="#afe4f6">=</text>
+<text x="848" y="68" font-size="10.0" fill="#73d0ee" class="k" style="animation-duration:8.2s;animation-delay:-2.8s">#</text>
+<text x="854" y="68" font-size="10.0" fill="#5bc8ec">@</text>
+<text x="860" y="68" font-size="10.0" fill="#65c8ef">%</text>
+<text x="866" y="68" font-size="10.0" fill="#c3e8fa">-</text>
+<text x="1064" y="68" font-size="10.0" fill="#7fd1f2">#</text>
+<text x="1070" y="68" font-size="10.0" fill="#6acaf0">%</text>
+<text x="1076" y="68" font-size="10.0" fill="#7ed3f1">#</text>
+<text x="1082" y="68" font-size="10.0" fill="#72ceef">#</text>
+<text x="1088" y="68" font-size="10.0" fill="#a1dff4">+</text>
+<text x="1124" y="68" font-size="10.0" fill="#b4efee">=</text>
+<text x="1130" y="68" font-size="10.0" fill="#35d3d1">@</text>
+<text x="1136" y="68" font-size="10.0" fill="#32d2d0">@</text>
+<text x="1142" y="68" font-size="10.0" fill="#60dbdb">%</text>
+<text x="1148" y="68" font-size="10.0" fill="#3fd4d5">@</text>
+<text x="1154" y="68" font-size="10.0" fill="#5eddd9">%</text>
+<text x="1160" y="68" font-size="10.0" fill="#e4f9f9">:</text>
+<text x="1166" y="68" font-size="10.0" fill="#3cd4d2">@</text>
+<text x="1172" y="68" font-size="10.0" fill="#31d3cf">@</text>
+<text x="1178" y="68" font-size="10.0" fill="#5bdcd9">@</text>
+<text x="1184" y="68" font-size="10.0" fill="#2bd2cd" class="k" style="animation-duration:5.5s;animation-delay:-5.2s">@</text>
+<text x="1190" y="68" font-size="10.0" fill="#27d3cb" class="k" style="animation-duration:6.7s;animation-delay:-5.7s">@</text>
+<text x="1196" y="68" font-size="10.0" fill="#90e8e4">*</text>
+<text x="1202" y="68" font-size="10.0" fill="#a2ebe8">+</text>
+<text x="1208" y="68" font-size="10.0" fill="#2cd3cb">@</text>
+<text x="1214" y="68" font-size="10.0" fill="#93e8e4">*</text>
+<text x="1220" y="68" font-size="10.0" fill="#54dbd6">@</text>
+<text x="1226" y="68" font-size="10.0" fill="#62dcdc">%</text>
+<text x="1238" y="68" font-size="10.0" fill="#e4f3fe">:</text>
+<text x="1244" y="68" font-size="10.0" fill="#ccebfa" class="k" style="animation-duration:3.4s;animation-delay:-6.1s">-</text>
+<text x="1250" y="68" font-size="10.0" fill="#cfe8fd">-</text>
+<text x="1256" y="68" font-size="10.0" fill="#e6f3fe">:</text>
+<text x="1268" y="68" font-size="10.0" fill="#e3f2fe">:</text>
+<text x="1274" y="68" font-size="10.0" fill="#d6ebfd">-</text>
+<text x="824" y="78" font-size="10.0" fill="#dff6fb">:</text>
+<text x="830" y="78" font-size="10.0" fill="#9ee2f1">+</text>
+<text x="836" y="78" font-size="10.0" fill="#78d7eb">#</text>
+<text x="842" y="78" font-size="10.0" fill="#63d1e7">%</text>
+<text x="848" y="78" font-size="10.0" fill="#d9f4f9">:</text>
+<text x="854" y="78" font-size="10.0" fill="#bceaf6">=</text>
+<text x="860" y="78" font-size="10.0" fill="#5acce9">@</text>
+<text x="866" y="78" font-size="10.0" fill="#55cbe8">@</text>
+<text x="872" y="78" font-size="10.0" fill="#8edcf0" class="k" style="animation-duration:6.4s;animation-delay:-6.6s">*</text>
+<text x="1064" y="78" font-size="10.0" fill="#b5e9f5">=</text>
+<text x="1070" y="78" font-size="10.0" fill="#b3e7f5">=</text>
+<text x="1076" y="78" font-size="10.0" fill="#81d9ed">#</text>
+<text x="1082" y="78" font-size="10.0" fill="#4fcae5">@</text>
+<text x="1088" y="78" font-size="10.0" fill="#c0ecf6">=</text>
+<text x="1148" y="78" font-size="10.0" fill="#c7f4f1">-</text>
+<text x="1154" y="78" font-size="10.0" fill="#46dcce">@</text>
+<text x="1160" y="78" font-size="10.0" fill="#32d9c7">@</text>
+<text x="1166" y="78" font-size="10.0" fill="#4eddd0">@</text>
+<text x="1172" y="78" font-size="10.0" fill="#3ad8cc">@</text>
+<text x="1178" y="78" font-size="10.0" fill="#76e6d9">#</text>
+<text x="1184" y="78" font-size="10.0" fill="#95ece1">*</text>
+<text x="1190" y="78" font-size="10.0" fill="#2fd8c6">@</text>
+<text x="1196" y="78" font-size="10.0" fill="#39dac9">@</text>
+<text x="1202" y="78" font-size="10.0" fill="#33dbc5">@</text>
+<text x="1208" y="78" font-size="10.0" fill="#28d9c1">@</text>
+<text x="1214" y="78" font-size="10.0" fill="#4fdecf">@</text>
+<text x="1220" y="78" font-size="10.0" fill="#68e3d6">%</text>
+<text x="1226" y="78" font-size="10.0" fill="#46ddcc">@</text>
+<text x="1232" y="78" font-size="10.0" fill="#31d9c6">@</text>
+<text x="1238" y="78" font-size="10.0" fill="#b1efeb">=</text>
+<text x="1244" y="78" font-size="10.0" fill="#33d9c7">@</text>
+<text x="1250" y="78" font-size="10.0" fill="#a4ece8">+</text>
+<text x="1262" y="78" font-size="10.0" fill="#e8f6fd">:</text>
+<text x="830" y="88" font-size="10.0" fill="#e6f9fa">:</text>
+<text x="836" y="88" font-size="10.0" fill="#aeebef">+</text>
+<text x="842" y="88" font-size="10.0" fill="#b7edf1">=</text>
+<text x="848" y="88" font-size="10.0" fill="#b5ecf1">=</text>
+<text x="854" y="88" font-size="10.0" fill="#96e4ec">*</text>
+<text x="860" y="88" font-size="10.0" fill="#c7f0f5">-</text>
+<text x="866" y="88" font-size="10.0" fill="#c8f0f6">-</text>
+<text x="872" y="88" font-size="10.0" fill="#71d7e8">%</text>
+<text x="878" y="88" font-size="10.0" fill="#83dceb">#</text>
+<text x="1058" y="88" font-size="10.0" fill="#d0f4f5">-</text>
+<text x="1064" y="88" font-size="10.0" fill="#59d7dd">@</text>
+<text x="1070" y="88" font-size="10.0" fill="#5bd7de">@</text>
+<text x="1076" y="88" font-size="10.0" fill="#a3e9ec">+</text>
+<text x="1082" y="88" font-size="10.0" fill="#e4f9f9">:</text>
+<text x="1166" y="88" font-size="10.0" fill="#d4f8f1">-</text>
+<text x="1172" y="88" font-size="10.0" fill="#45e1c4">@</text>
+<text x="1178" y="88" font-size="10.0" fill="#6ce7d1" class="k" style="animation-duration:8.7s;animation-delay:-7.9s">%</text>
+<text x="1184" y="88" font-size="10.0" fill="#a0efe2">+</text>
+<text x="1190" y="88" font-size="10.0" fill="#b8f2eb">=</text>
+<text x="1196" y="88" font-size="10.0" fill="#e6faf8">:</text>
+<text x="1208" y="88" font-size="10.0" fill="#c5f6ec">-</text>
+<text x="1214" y="88" font-size="10.0" fill="#a7f1e4">+</text>
+<text x="1220" y="88" font-size="10.0" fill="#53e3c9">@</text>
+<text x="1226" y="88" font-size="10.0" fill="#3ae1be">@</text>
+<text x="1232" y="88" font-size="10.0" fill="#9aefde">+</text>
+<text x="1256" y="88" font-size="10.0" fill="#ddf7f7">:</text>
+<text x="1262" y="88" font-size="10.0" fill="#8eecda">*</text>
+<text x="1268" y="88" font-size="10.0" fill="#c9f4f0">-</text>
+<text x="1274" y="88" font-size="10.0" fill="#d5f0fa">-</text>
+<text x="836" y="98" font-size="10.0" fill="#c6f3f1">-</text>
+<text x="842" y="98" font-size="10.0" fill="#b3eeed">=</text>
+<text x="848" y="98" font-size="10.0" fill="#b0eeed">=</text>
+<text x="854" y="98" font-size="10.0" fill="#73e0df">#</text>
+<text x="860" y="98" font-size="10.0" fill="#c0f0f1" class="k" style="animation-duration:8.4s;animation-delay:-6.2s">=</text>
+<text x="872" y="98" font-size="10.0" fill="#d5f6f5">-</text>
+<text x="878" y="98" font-size="10.0" fill="#9ae9e8">+</text>
+<text x="884" y="98" font-size="10.0" fill="#9be8e9">+</text>
+<text x="890" y="98" font-size="10.0" fill="#b9eef1">=</text>
+<text x="1058" y="98" font-size="10.0" fill="#d4f6f5" class="k" style="animation-duration:7.5s;animation-delay:-1.5s">-</text>
+<text x="1064" y="98" font-size="10.0" fill="#60dfd7">%</text>
+<text x="1070" y="98" font-size="10.0" fill="#47dacf">@</text>
+<text x="1076" y="98" font-size="10.0" fill="#71e2db">%</text>
+<text x="1082" y="98" font-size="10.0" fill="#cef5f3">-</text>
+<text x="1184" y="98" font-size="10.0" fill="#dffbf2">:</text>
+<text x="1190" y="98" font-size="10.0" fill="#a1f4d9">+</text>
+<text x="1196" y="98" font-size="10.0" fill="#51e8bd">@</text>
+<text x="1202" y="98" font-size="10.0" fill="#99f1d9">*</text>
+<text x="1208" y="98" font-size="10.0" fill="#5be9c3">@</text>
+<text x="1214" y="98" font-size="10.0" fill="#93f2d5">*</text>
+<text x="1220" y="98" font-size="10.0" fill="#9af2d8">+</text>
+<text x="1226" y="98" font-size="10.0" fill="#34e4b4">@</text>
+<text x="1232" y="98" font-size="10.0" fill="#4ee8bd">@</text>
+<text x="1238" y="98" font-size="10.0" fill="#7feece">#</text>
+<text x="1244" y="98" font-size="10.0" fill="#8ef0d3">*</text>
+<text x="1250" y="98" font-size="10.0" fill="#c1f8e5">=</text>
+<text x="1256" y="98" font-size="10.0" fill="#b4f5e3">=</text>
+<text x="1262" y="98" font-size="10.0" fill="#60e8c6">%</text>
+<text x="1268" y="98" font-size="10.0" fill="#b1efea">=</text>
+<text x="848" y="108" font-size="10.0" fill="#daf8f5">:</text>
+<text x="854" y="108" font-size="10.0" fill="#c3f4ef" class="k" style="animation-duration:6.8s;animation-delay:-7.8s">-</text>
+<text x="860" y="108" font-size="10.0" fill="#baf3eb">=</text>
+<text x="866" y="108" font-size="10.0" fill="#a4efe4">+</text>
+<text x="872" y="108" font-size="10.0" fill="#b5f1ea">=</text>
+<text x="878" y="108" font-size="10.0" fill="#bff3ee">=</text>
+<text x="884" y="108" font-size="10.0" fill="#c2f4ee">=</text>
+<text x="890" y="108" font-size="10.0" fill="#d4f7f3">-</text>
+<text x="896" y="108" font-size="10.0" fill="#b9f2eb">=</text>
+<text x="1058" y="108" font-size="10.0" fill="#e6fbf7" class="k" style="animation-duration:3.3s;animation-delay:-1.1s">:</text>
+<text x="1064" y="108" font-size="10.0" fill="#52e3c8">@</text>
+<text x="1070" y="108" font-size="10.0" fill="#68e6cf">%</text>
+<text x="1076" y="108" font-size="10.0" fill="#5be5c9">@</text>
+<text x="1184" y="108" font-size="10.0" fill="#cff9eb">-</text>
+<text x="1190" y="108" font-size="10.0" fill="#96f3d4">*</text>
+<text x="1196" y="108" font-size="10.0" fill="#e1fbf3">:</text>
+<text x="1202" y="108" font-size="10.0" fill="#c3f9e3">-</text>
+<text x="1208" y="108" font-size="10.0" fill="#baf8df">=</text>
+<text x="1214" y="108" font-size="10.0" fill="#74f0c5">#</text>
+<text x="1220" y="108" font-size="10.0" fill="#58ecb9">@</text>
+<text x="1226" y="108" font-size="10.0" fill="#c7f8e8">-</text>
+<text x="1232" y="108" font-size="10.0" fill="#71efc2">%</text>
+<text x="1238" y="108" font-size="10.0" fill="#53ecb6">@</text>
+<text x="1244" y="108" font-size="10.0" fill="#56edb4">@</text>
+<text x="1250" y="108" font-size="10.0" fill="#44ebad">@</text>
+<text x="1256" y="108" font-size="10.0" fill="#57edb5">@</text>
+<text x="1262" y="108" font-size="10.0" fill="#49ecaf">@</text>
+<text x="1268" y="108" font-size="10.0" fill="#a9f5da">+</text>
+<text x="1274" y="108" font-size="10.0" fill="#48ecae">@</text>
+<text x="860" y="118" font-size="10.0" fill="#e8fbf8">:</text>
+<text x="866" y="118" font-size="10.0" fill="#baf4e8">=</text>
+<text x="872" y="118" font-size="10.0" fill="#9cf0dd">+</text>
+<text x="878" y="118" font-size="10.0" fill="#c5f6eb">-</text>
+<text x="884" y="118" font-size="10.0" fill="#aaf2e3">+</text>
+<text x="890" y="118" font-size="10.0" fill="#a0f1de">+</text>
+<text x="902" y="118" font-size="10.0" fill="#c6f7eb">-</text>
+<text x="908" y="118" font-size="10.0" fill="#cdf7ef">-</text>
+<text x="1058" y="118" font-size="10.0" fill="#90f0d4">*</text>
+<text x="1064" y="118" font-size="10.0" fill="#5eebc1">%</text>
+<text x="1070" y="118" font-size="10.0" fill="#9ff3da">+</text>
+<text x="1076" y="118" font-size="10.0" fill="#51e9b9">@</text>
+<text x="1202" y="118" font-size="10.0" fill="#acf7d8">+</text>
+<text x="1208" y="118" font-size="10.0" fill="#a8f7d6">+</text>
+<text x="1214" y="118" font-size="10.0" fill="#9cf7cd">+</text>
+<text x="1220" y="118" font-size="10.0" fill="#51f0a5">@</text>
+<text x="1226" y="118" font-size="10.0" fill="#4befa4">@</text>
+<text x="1232" y="118" font-size="10.0" fill="#4ff0a7">@</text>
+<text x="1238" y="118" font-size="10.0" fill="#9cf6cd">+</text>
+<text x="1244" y="118" font-size="10.0" fill="#8cf4c8">*</text>
+<text x="1250" y="118" font-size="10.0" fill="#46efa1">@</text>
+<text x="1256" y="118" font-size="10.0" fill="#63f2af">%</text>
+<text x="1262" y="118" font-size="10.0" fill="#79f3bb">#</text>
+<text x="1268" y="118" font-size="10.0" fill="#45efa1">@</text>
+<text x="1274" y="118" font-size="10.0" fill="#80f2c5">#</text>
+<text x="854" y="128" font-size="10.0" fill="#e3fcf3">:</text>
+<text x="860" y="128" font-size="10.0" fill="#a2f4d7">+</text>
+<text x="866" y="128" font-size="10.0" fill="#bbf7e1">=</text>
+<text x="878" y="128" font-size="10.0" fill="#caf8eb">-</text>
+<text x="884" y="128" font-size="10.0" fill="#e3fcf3">:</text>
+<text x="890" y="128" font-size="10.0" fill="#bcf7e4">=</text>
+<text x="896" y="128" font-size="10.0" fill="#cef9ec">-</text>
+<text x="902" y="128" font-size="10.0" fill="#c3f7e8">-</text>
+<text x="908" y="128" font-size="10.0" fill="#cbf9e8">-</text>
+<text x="914" y="128" font-size="10.0" fill="#cffaeb">-</text>
+<text x="920" y="128" font-size="10.0" fill="#e5fcf4">:</text>
+<text x="1058" y="128" font-size="10.0" fill="#c5fae4">-</text>
+<text x="1064" y="128" font-size="10.0" fill="#83f3c3" class="k" style="animation-duration:3.9s;animation-delay:-7.0s">#</text>
+<text x="1070" y="128" font-size="10.0" fill="#4aeea9" class="k" style="animation-duration:3.6s;animation-delay:-0.9s">@</text>
+<text x="1076" y="128" font-size="10.0" fill="#6ff0bd">%</text>
+<text x="1082" y="128" font-size="10.0" fill="#e7fdf4">:</text>
+<text x="1220" y="128" font-size="10.0" fill="#acf8d2" class="k" style="animation-duration:8.0s;animation-delay:-1.1s">+</text>
+<text x="1226" y="128" font-size="10.0" fill="#85f6bd">#</text>
+<text x="1232" y="128" font-size="10.0" fill="#67f4ac">%</text>
+<text x="1238" y="128" font-size="10.0" fill="#a9f9d0">+</text>
+<text x="1244" y="128" font-size="10.0" fill="#cefce2">-</text>
+<text x="1250" y="128" font-size="10.0" fill="#cbfbe3">-</text>
+<text x="1256" y="128" font-size="10.0" fill="#62f4a6">%</text>
+<text x="1262" y="128" font-size="10.0" fill="#47f395" class="k" style="animation-duration:7.6s;animation-delay:-4.6s">@</text>
+<text x="1268" y="128" font-size="10.0" fill="#64f4a8">%</text>
+<text x="1274" y="128" font-size="10.0" fill="#87f6bd">*</text>
+<text x="872" y="138" font-size="10.0" fill="#d0fae8">-</text>
+<text x="878" y="138" font-size="10.0" fill="#c1fae1">=</text>
+<text x="884" y="138" font-size="10.0" fill="#abf7d6">+</text>
+<text x="890" y="138" font-size="10.0" fill="#cafae6">-</text>
+<text x="896" y="138" font-size="10.0" fill="#dffcef">:</text>
+<text x="902" y="138" font-size="10.0" fill="#aff8d8">=</text>
+<text x="908" y="138" font-size="10.0" fill="#adf8d7">+</text>
+<text x="914" y="138" font-size="10.0" fill="#adf7d7">+</text>
+<text x="920" y="138" font-size="10.0" fill="#bdf8e0">=</text>
+<text x="926" y="138" font-size="10.0" fill="#c8fae5">-</text>
+<text x="1058" y="138" font-size="10.0" fill="#b2fad4">=</text>
+<text x="1064" y="138" font-size="10.0" fill="#59f3a3">@</text>
+<text x="1070" y="138" font-size="10.0" fill="#7af6b4">#</text>
+<text x="1076" y="138" font-size="10.0" fill="#b6fad6">=</text>
+<text x="1238" y="138" font-size="10.0" fill="#d9fde8">:</text>
+<text x="1244" y="138" font-size="10.0" fill="#9bf9c3">+</text>
+<text x="1250" y="138" font-size="10.0" fill="#7bf9aa">#</text>
+<text x="1256" y="138" font-size="10.0" fill="#4df68d">@</text>
+<text x="1262" y="138" font-size="10.0" fill="#8ef9b8">*</text>
+<text x="1268" y="138" font-size="10.0" fill="#acfacd">+</text>
+<text x="1274" y="138" font-size="10.0" fill="#e6fdf0">:</text>
+<text x="890" y="148" font-size="10.0" fill="#d5fde6">-</text>
+<text x="896" y="148" font-size="10.0" fill="#d6fce8">-</text>
+<text x="902" y="148" font-size="10.0" fill="#c3fade">-</text>
+<text x="908" y="148" font-size="10.0" fill="#e0fdee">:</text>
+<text x="914" y="148" font-size="10.0" fill="#d4fce6">-</text>
+<text x="920" y="148" font-size="10.0" fill="#dffdee">:</text>
+<text x="932" y="148" font-size="10.0" fill="#d0fce2">-</text>
+<text x="944" y="148" font-size="10.0" fill="#cdfce2">-</text>
+<text x="1052" y="148" font-size="10.0" fill="#d8fde6">:</text>
+<text x="1058" y="148" font-size="10.0" fill="#94f9bb">*</text>
+<text x="1064" y="148" font-size="10.0" fill="#66f69f">%</text>
+<text x="1070" y="148" font-size="10.0" fill="#80f8af">#</text>
+<text x="1076" y="148" font-size="10.0" fill="#bffadb">=</text>
+<text x="1082" y="148" font-size="10.0" fill="#dafcec">:</text>
+<text x="1250" y="148" font-size="10.0" fill="#d8fee1">:</text>
+<text x="1256" y="148" font-size="10.0" fill="#85fba3">#</text>
+<text x="1262" y="148" font-size="10.0" fill="#85fba3">#</text>
+<text x="1268" y="148" font-size="10.0" fill="#6ffa95">%</text>
+<text x="1274" y="148" font-size="10.0" fill="#58f984">@</text>
+<text x="884" y="158" font-size="10.0" fill="#e1feea">:</text>
+<text x="896" y="158" font-size="10.0" fill="#eafef1">:</text>
+<text x="902" y="158" font-size="10.0" fill="#cffdde">-</text>
+<text x="908" y="158" font-size="10.0" fill="#affbc8">=</text>
+<text x="914" y="158" font-size="10.0" fill="#e4feec">:</text>
+<text x="920" y="158" font-size="10.0" fill="#c3fcd5">-</text>
+<text x="926" y="158" font-size="10.0" fill="#cafddb">-</text>
+<text x="932" y="158" font-size="10.0" fill="#dcfde8">:</text>
+<text x="1058" y="158" font-size="10.0" fill="#b1fcc6">=</text>
+<text x="1064" y="158" font-size="10.0" fill="#6ffa91">%</text>
+<text x="1070" y="158" font-size="10.0" fill="#6af98e">%</text>
+<text x="1076" y="158" font-size="10.0" fill="#7cfa9b" class="k" style="animation-duration:5.9s;animation-delay:-3.4s">#</text>
+<text x="1082" y="158" font-size="10.0" fill="#bafbd3">=</text>
+<text x="1088" y="158" font-size="10.0" fill="#bcfbd4">=</text>
+<text x="1094" y="158" font-size="10.0" fill="#c8fcdc">-</text>
+<text x="1250" y="158" font-size="10.0" fill="#b2fdbe">=</text>
+<text x="1256" y="158" font-size="10.0" fill="#7dfb92">#</text>
+<text x="1262" y="158" font-size="10.0" fill="#a8fcb9">+</text>
+<text x="1268" y="158" font-size="10.0" fill="#7cfc95">#</text>
+<text x="1274" y="158" font-size="10.0" fill="#61fb7d">%</text>
+<text x="896" y="168" font-size="10.0" fill="#d5fedd">-</text>
+<text x="902" y="168" font-size="10.0" fill="#d3fedc">-</text>
+<text x="908" y="168" font-size="10.0" fill="#c3fdce">-</text>
+<text x="914" y="168" font-size="10.0" fill="#d6fedd">-</text>
+<text x="920" y="168" font-size="10.0" fill="#befdcb">=</text>
+<text x="926" y="168" font-size="10.0" fill="#dcfee2">:</text>
+<text x="938" y="168" font-size="10.0" fill="#d0fed8">-</text>
+<text x="944" y="168" font-size="10.0" fill="#b6fdc3">=</text>
+<text x="950" y="168" font-size="10.0" fill="#eafeed">:</text>
+<text x="1058" y="168" font-size="10.0" fill="#c2fdcc">=</text>
+<text x="1064" y="168" font-size="10.0" fill="#67fc77">%</text>
+<text x="1070" y="168" font-size="10.0" fill="#6dfb80">%</text>
+<text x="1076" y="168" font-size="10.0" fill="#8afc9c">*</text>
+<text x="1082" y="168" font-size="10.0" fill="#cbfdd8">-</text>
+<text x="1088" y="168" font-size="10.0" fill="#d5fee0">-</text>
+<text x="1094" y="168" font-size="10.0" fill="#b3fdc3">=</text>
+<text x="1100" y="168" font-size="10.0" fill="#befdcc">=</text>
+<text x="1106" y="168" font-size="10.0" fill="#ddfee4">:</text>
+<text x="1112" y="168" font-size="10.0" fill="#ddfee5">:</text>
+<text x="1118" y="168" font-size="10.0" fill="#e2fee9">:</text>
+<text x="1262" y="168" font-size="10.0" fill="#98fd9d">*</text>
+<text x="1268" y="168" font-size="10.0" fill="#74fc7a">#</text>
+<text x="1274" y="168" font-size="10.0" fill="#8dfc93">*</text>
+<text x="914" y="178" font-size="10.0" fill="#e8ffe9">:</text>
+<text x="920" y="178" font-size="10.0" fill="#d3fed5">-</text>
+<text x="926" y="178" font-size="10.0" fill="#dcfede">:</text>
+<text x="932" y="178" font-size="10.0" fill="#d1fed1">-</text>
+<text x="938" y="178" font-size="10.0" fill="#e1fee5">:</text>
+<text x="944" y="178" font-size="10.0" fill="#dcfee0">:</text>
+<text x="962" y="178" font-size="10.0" fill="#d9fed9">:</text>
+<text x="1052" y="178" font-size="10.0" fill="#e0fee1">:</text>
+<text x="1058" y="178" font-size="10.0" fill="#9ffd99">*</text>
+<text x="1064" y="178" font-size="10.0" fill="#77fc73">#</text>
+<text x="1070" y="178" font-size="10.0" fill="#76fc71">%</text>
+<text x="1076" y="178" font-size="10.0" fill="#b1fdb0">=</text>
+<text x="1094" y="178" font-size="10.0" fill="#dbfedf">:</text>
+<text x="1100" y="178" font-size="10.0" fill="#b8fdbf" class="k" style="animation-duration:5.0s;animation-delay:-3.9s">=</text>
+<text x="1106" y="178" font-size="10.0" fill="#affdb6">=</text>
+<text x="1112" y="178" font-size="10.0" fill="#bafdbd">=</text>
+<text x="1118" y="178" font-size="10.0" fill="#d4fed6">-</text>
+<text x="1124" y="178" font-size="10.0" fill="#cbfdcc">-</text>
+<text x="1130" y="178" font-size="10.0" fill="#c8fdcb">-</text>
+<text x="1262" y="178" font-size="10.0" fill="#e5fee7">:</text>
+<text x="1268" y="178" font-size="10.0" fill="#d2fed3">-</text>
+<text x="1274" y="178" font-size="10.0" fill="#dffee0">:</text>
+<text x="920" y="188" font-size="10.0" fill="#e1fede">:</text>
+<text x="926" y="188" font-size="10.0" fill="#dafed5">-</text>
+<text x="932" y="188" font-size="10.0" fill="#d6fed1">-</text>
+<text x="944" y="188" font-size="10.0" fill="#e7ffe4">:</text>
+<text x="950" y="188" font-size="10.0" fill="#cafec1">=</text>
+<text x="956" y="188" font-size="10.0" fill="#eaffe4">:</text>
+<text x="962" y="188" font-size="10.0" fill="#e8fee4">:</text>
+<text x="968" y="188" font-size="10.0" fill="#e7ffe4">:</text>
+<text x="1058" y="188" font-size="10.0" fill="#cdfec6">-</text>
+<text x="1064" y="188" font-size="10.0" fill="#94fc7c">#</text>
+<text x="1070" y="188" font-size="10.0" fill="#a5fd93">*</text>
+<text x="1076" y="188" font-size="10.0" fill="#bcfdae">+</text>
+<text x="1112" y="188" font-size="10.0" fill="#e6fee4">:</text>
+<text x="1118" y="188" font-size="10.0" fill="#cbfdc4">-</text>
+<text x="1124" y="188" font-size="10.0" fill="#b2fdaa">+</text>
+<text x="1130" y="188" font-size="10.0" fill="#e2fedf">:</text>
+<text x="1136" y="188" font-size="10.0" fill="#d1fecb">-</text>
+<text x="1274" y="188" font-size="10.0" fill="#dffedc">:</text>
+<text x="926" y="198" font-size="10.0" fill="#e3feda">:</text>
+<text x="932" y="198" font-size="10.0" fill="#dcfecd">-</text>
+<text x="938" y="198" font-size="10.0" fill="#e8fee0">:</text>
+<text x="944" y="198" font-size="10.0" fill="#ddfecf">-</text>
+<text x="950" y="198" font-size="10.0" fill="#edffe7">:</text>
+<text x="956" y="198" font-size="10.0" fill="#cefebc">=</text>
+<text x="962" y="198" font-size="10.0" fill="#c9fdb5">=</text>
+<text x="968" y="198" font-size="10.0" fill="#defed0">-</text>
+<text x="974" y="198" font-size="10.0" fill="#d5fec2">=</text>
+<text x="986" y="198" font-size="10.0" fill="#e4fed8">:</text>
+<text x="1046" y="198" font-size="10.0" fill="#e5feda">:</text>
+<text x="1052" y="198" font-size="10.0" fill="#cbfdb5">=</text>
+<text x="1058" y="198" font-size="10.0" fill="#c5fda8">+</text>
+<text x="1064" y="198" font-size="10.0" fill="#92fb61">%</text>
+<text x="1070" y="198" font-size="10.0" fill="#a0fb75">#</text>
+<text x="1076" y="198" font-size="10.0" fill="#e3fed4">-</text>
+<text x="1118" y="198" font-size="10.0" fill="#e6fedc">:</text>
+<text x="1124" y="198" font-size="10.0" fill="#d4fec2">=</text>
+<text x="1130" y="198" font-size="10.0" fill="#c3fdac">+</text>
+<text x="1136" y="198" font-size="10.0" fill="#c2fdac">+</text>
+<text x="1142" y="198" font-size="10.0" fill="#d4fec2">=</text>
+<text x="944" y="208" font-size="10.0" fill="#dafdbd">=</text>
+<text x="950" y="208" font-size="10.0" fill="#e4fdce">-</text>
+<text x="956" y="208" font-size="10.0" fill="#dffdcb">-</text>
+<text x="962" y="208" font-size="10.0" fill="#e1fece">-</text>
+<text x="968" y="208" font-size="10.0" fill="#d6fdbd">=</text>
+<text x="974" y="208" font-size="10.0" fill="#eafedd">:</text>
+<text x="986" y="208" font-size="10.0" fill="#effee6">:</text>
+<text x="1058" y="208" font-size="10.0" fill="#e2fdcc">-</text>
+<text x="1064" y="208" font-size="10.0" fill="#b6fb80">#</text>
+<text x="1070" y="208" font-size="10.0" fill="#b9fb83">#</text>
+<text x="1076" y="208" font-size="10.0" fill="#acfa6d">%</text>
+<text x="1082" y="208" font-size="10.0" fill="#ecfedc" class="k" style="animation-duration:6.0s;animation-delay:-2.2s">:</text>
+<text x="1130" y="208" font-size="10.0" fill="#e8fed6">-</text>
+<text x="1136" y="208" font-size="10.0" fill="#dffdc7">-</text>
+<text x="1142" y="208" font-size="10.0" fill="#d3fcb0">=</text>
+<text x="1148" y="208" font-size="10.0" fill="#d9fcbc">=</text>
+<text x="1154" y="208" font-size="10.0" fill="#cafba4">+</text>
+<text x="1160" y="208" font-size="10.0" fill="#d7fcba">=</text>
+<text x="1268" y="208" font-size="10.0" fill="#f2feea">:</text>
+<text x="1274" y="208" font-size="10.0" fill="#f1fee7">:</text>
+<text x="944" y="218" font-size="10.0" fill="#defcba">=</text>
+<text x="950" y="218" font-size="10.0" fill="#f3fee7">:</text>
+<text x="956" y="218" font-size="10.0" fill="#e8fdcd">-</text>
+<text x="974" y="218" font-size="10.0" fill="#eefddb">:</text>
+<text x="980" y="218" font-size="10.0" fill="#f1fddd">:</text>
+<text x="986" y="218" font-size="10.0" fill="#edfdd6">-</text>
+<text x="992" y="218" font-size="10.0" fill="#dffbb7">=</text>
+<text x="998" y="218" font-size="10.0" fill="#f6feea">:</text>
+<text x="1052" y="218" font-size="10.0" fill="#d6fba6">+</text>
+<text x="1058" y="218" font-size="10.0" fill="#b8f765">%</text>
+<text x="1064" y="218" font-size="10.0" fill="#adf64f">@</text>
+<text x="1070" y="218" font-size="10.0" fill="#acf651">@</text>
+<text x="1076" y="218" font-size="10.0" fill="#bbf872">#</text>
+<text x="1082" y="218" font-size="10.0" fill="#ddfcba">=</text>
+<text x="1136" y="218" font-size="10.0" fill="#f0fde1">:</text>
+<text x="1142" y="218" font-size="10.0" fill="#defbbb">=</text>
+<text x="1148" y="218" font-size="10.0" fill="#dffbbb">=</text>
+<text x="1154" y="218" font-size="10.0" fill="#d8fbaa">+</text>
+<text x="1160" y="218" font-size="10.0" fill="#d3faa0">+</text>
+<text x="1166" y="218" font-size="10.0" fill="#defbb6">=</text>
+<text x="1172" y="218" font-size="10.0" fill="#e5fcc6">-</text>
+<text x="1178" y="218" font-size="10.0" fill="#f5fee8" class="k" style="animation-duration:7.8s;animation-delay:-8.0s">:</text>
+<text x="956" y="228" font-size="10.0" fill="#edfcce">-</text>
+<text x="968" y="228" font-size="10.0" fill="#f3fcdd">:</text>
+<text x="974" y="228" font-size="10.0" fill="#f5fde2">:</text>
+<text x="986" y="228" font-size="10.0" fill="#f3fcdb">:</text>
+<text x="992" y="228" font-size="10.0" fill="#ecfbcb">-</text>
+<text x="998" y="228" font-size="10.0" fill="#e7fac0">=</text>
+<text x="1004" y="228" font-size="10.0" fill="#e6f9b6">=</text>
+<text x="1040" y="228" font-size="10.0" fill="#eafbc2">=</text>
+<text x="1046" y="228" font-size="10.0" fill="#d2f685">#</text>
+<text x="1052" y="228" font-size="10.0" fill="#c9f571">%</text>
+<text x="1058" y="228" font-size="10.0" fill="#c1f45e">%</text>
+<text x="1064" y="228" font-size="10.0" fill="#bcf453">@</text>
+<text x="1070" y="228" font-size="10.0" fill="#bcf450" class="k" style="animation-duration:7.6s;animation-delay:-6.0s">@</text>
+<text x="1076" y="228" font-size="10.0" fill="#e1f9ad">+</text>
+<text x="1148" y="228" font-size="10.0" fill="#ecfbca">-</text>
+<text x="1154" y="228" font-size="10.0" fill="#e3fab3">=</text>
+<text x="1160" y="228" font-size="10.0" fill="#e0f8a9">+</text>
+<text x="1166" y="228" font-size="10.0" fill="#dbf79a">+</text>
+<text x="1172" y="228" font-size="10.0" fill="#effcd4" class="k" style="animation-duration:6.0s;animation-delay:-5.8s">-</text>
+<text x="1178" y="228" font-size="10.0" fill="#e4f9b3">=</text>
+<text x="1184" y="228" font-size="10.0" fill="#e5f9b5">=</text>
+<text x="1190" y="228" font-size="10.0" fill="#edfbcb">-</text>
+<text x="1202" y="228" font-size="10.0" fill="#f4fcdd">:</text>
+<text x="1268" y="228" font-size="10.0" fill="#f1fcd8">:</text>
+<text x="1274" y="228" font-size="10.0" fill="#f7fde9">:</text>
+<text x="956" y="238" font-size="10.0" fill="#f6fbd7">:</text>
+<text x="968" y="238" font-size="10.0" fill="#f1f8c2">=</text>
+<text x="974" y="238" font-size="10.0" fill="#ebf6af">=</text>
+<text x="980" y="238" font-size="10.0" fill="#f0f8c3">-</text>
+<text x="986" y="238" font-size="10.0" fill="#eef8ba">=</text>
+<text x="992" y="238" font-size="10.0" fill="#f1f9c7">-</text>
+<text x="1004" y="238" font-size="10.0" fill="#f7fce1">:</text>
+<text x="1010" y="238" font-size="10.0" fill="#f7fbde">:</text>
+<text x="1034" y="238" font-size="10.0" fill="#e9f8b2">=</text>
+<text x="1040" y="238" font-size="10.0" fill="#dcf58c">*</text>
+<text x="1046" y="238" font-size="10.0" fill="#daf482">#</text>
+<text x="1052" y="238" font-size="10.0" fill="#d0f059">@</text>
+<text x="1058" y="238" font-size="10.0" fill="#d0f05c">@</text>
+<text x="1064" y="238" font-size="10.0" fill="#d5f270">%</text>
+<text x="1070" y="238" font-size="10.0" fill="#dcf58b">*</text>
+<text x="1076" y="238" font-size="10.0" fill="#dff695">*</text>
+<text x="1082" y="238" font-size="10.0" fill="#eaf9bc">=</text>
+<text x="1148" y="238" font-size="10.0" fill="#f8fde7">:</text>
+<text x="1154" y="238" font-size="10.0" fill="#effac6">-</text>
+<text x="1160" y="238" font-size="10.0" fill="#f8fde7">:</text>
+<text x="1166" y="238" font-size="10.0" fill="#edf8bc">=</text>
+<text x="1172" y="238" font-size="10.0" fill="#f4fad5">-</text>
+<text x="1178" y="238" font-size="10.0" fill="#f5fcdc">:</text>
+<text x="1184" y="238" font-size="10.0" fill="#f5fcdb">:</text>
+<text x="1190" y="238" font-size="10.0" fill="#f6fcdd" class="k" style="animation-duration:3.5s;animation-delay:-1.8s">:</text>
+<text x="1196" y="238" font-size="10.0" fill="#f1f9c8">-</text>
+<text x="1202" y="238" font-size="10.0" fill="#e9f7ac">+</text>
+<text x="1208" y="238" font-size="10.0" fill="#eff8bd">=</text>
+<text x="1214" y="238" font-size="10.0" fill="#f5fad3">-</text>
+<text x="1220" y="238" font-size="10.0" fill="#f7fbdc">:</text>
+<text x="1232" y="238" font-size="10.0" fill="#f7fbdc">:</text>
+<text x="1268" y="238" font-size="10.0" fill="#fafde9">:</text>
+<text x="962" y="248" font-size="10.0" fill="#f6f8ca">-</text>
+<text x="968" y="248" font-size="10.0" fill="#f6f9d0">-</text>
+<text x="974" y="248" font-size="10.0" fill="#f0f5af">=</text>
+<text x="980" y="248" font-size="10.0" fill="#f3f5b9">=</text>
+<text x="986" y="248" font-size="10.0" fill="#f9f9d9">:</text>
+<text x="992" y="248" font-size="10.0" fill="#fafae0">:</text>
+<text x="998" y="248" font-size="10.0" fill="#f9fada">:</text>
+<text x="1004" y="248" font-size="10.0" fill="#f0f3a9">+</text>
+<text x="1010" y="248" font-size="10.0" fill="#f9fbdf">:</text>
+<text x="1016" y="248" font-size="10.0" fill="#f9fad9">:</text>
+<text x="1040" y="248" font-size="10.0" fill="#fafbe3">:</text>
+<text x="1046" y="248" font-size="10.0" fill="#ecf6ab" class="k" style="animation-duration:4.3s;animation-delay:-7.0s">+</text>
+<text x="1052" y="248" font-size="10.0" fill="#e1f280">#</text>
+<text x="1058" y="248" font-size="10.0" fill="#e1f17d">#</text>
+<text x="1064" y="248" font-size="10.0" fill="#d9ea4b">@</text>
+<text x="1070" y="248" font-size="10.0" fill="#dceb55">@</text>
+<text x="1076" y="248" font-size="10.0" fill="#e8f291">*</text>
+<text x="1154" y="248" font-size="10.0" fill="#f9fbde">:</text>
+<text x="1172" y="248" font-size="10.0" fill="#eef199">*</text>
+<text x="1178" y="248" font-size="10.0" fill="#f5f5bb" class="k" style="animation-duration:3.7s;animation-delay:-1.5s">=</text>
+<text x="1184" y="248" font-size="10.0" fill="#f3f5b7">=</text>
+<text x="1190" y="248" font-size="10.0" fill="#ebef8b">*</text>
+<text x="1196" y="248" font-size="10.0" fill="#eef197" class="k" style="animation-duration:5.7s;animation-delay:-3.7s">*</text>
+<text x="1202" y="248" font-size="10.0" fill="#e5ec70">%</text>
+<text x="1208" y="248" font-size="10.0" fill="#f2f5b6">=</text>
+<text x="1214" y="248" font-size="10.0" fill="#f6fad3">-</text>
+<text x="1220" y="248" font-size="10.0" fill="#edf194">*</text>
+<text x="1226" y="248" font-size="10.0" fill="#ecf197" class="k" style="animation-duration:8.8s;animation-delay:-2.0s">*</text>
+<text x="1232" y="248" font-size="10.0" fill="#e9ef87">*</text>
+<text x="1238" y="248" font-size="10.0" fill="#fafbe1">:</text>
+<text x="1244" y="248" font-size="10.0" fill="#fafbe2">:</text>
+<text x="1250" y="248" font-size="10.0" fill="#f5f5bd">=</text>
+<text x="1256" y="248" font-size="10.0" fill="#f9f9d7">:</text>
+<text x="1268" y="248" font-size="10.0" fill="#eaef89">*</text>
+<text x="1274" y="248" font-size="10.0" fill="#e8ef81">#</text>
+<text x="968" y="258" font-size="10.0" fill="#faf6cb">-</text>
+<text x="986" y="258" font-size="10.0" fill="#fcf8d9">:</text>
+<text x="992" y="258" font-size="10.0" fill="#fbf6cd">-</text>
+<text x="998" y="258" font-size="10.0" fill="#fbf7d1">-</text>
+<text x="1004" y="258" font-size="10.0" fill="#fdfbe7">:</text>
+<text x="1010" y="258" font-size="10.0" fill="#f9f3bc">=</text>
+<text x="1016" y="258" font-size="10.0" fill="#f9f0af">=</text>
+<text x="1034" y="258" font-size="10.0" fill="#f2f09c">+</text>
+<text x="1040" y="258" font-size="10.0" fill="#e8e85f">%</text>
+<text x="1046" y="258" font-size="10.0" fill="#e7e85e">%</text>
+<text x="1052" y="258" font-size="10.0" fill="#eae96d">%</text>
+<text x="1058" y="258" font-size="10.0" fill="#f1f2a4">+</text>
+<text x="1064" y="258" font-size="10.0" fill="#e8e75f">%</text>
+<text x="1070" y="258" font-size="10.0" fill="#e7e553">@</text>
+<text x="1076" y="258" font-size="10.0" fill="#f9fadb">:</text>
+<text x="1172" y="258" font-size="10.0" fill="#f4ed96" class="k" style="animation-duration:3.2s;animation-delay:-0.8s">*</text>
+<text x="1178" y="258" font-size="10.0" fill="#f3eb8a">*</text>
+<text x="1184" y="258" font-size="10.0" fill="#f3ea85" class="k" style="animation-duration:3.3s;animation-delay:-5.9s">#</text>
+<text x="1190" y="258" font-size="10.0" fill="#f5f1aa">+</text>
+<text x="1196" y="258" font-size="10.0" fill="#f3e983">#</text>
+<text x="1202" y="258" font-size="10.0" fill="#fbfae2">:</text>
+<text x="1208" y="258" font-size="10.0" fill="#faf7cc">-</text>
+<text x="1214" y="258" font-size="10.0" fill="#f7f0ab">+</text>
+<text x="1220" y="258" font-size="10.0" fill="#f6f0a7">+</text>
+<text x="1226" y="258" font-size="10.0" fill="#f5ee9e">+</text>
+<text x="1232" y="258" font-size="10.0" fill="#f1e777" class="k" style="animation-duration:4.8s;animation-delay:-5.5s">#</text>
+<text x="1238" y="258" font-size="10.0" fill="#f6f1aa">+</text>
+<text x="1244" y="258" font-size="10.0" fill="#f8f3b9">=</text>
+<text x="1250" y="258" font-size="10.0" fill="#eee870">%</text>
+<text x="1256" y="258" font-size="10.0" fill="#f1ec89">*</text>
+<text x="1262" y="258" font-size="10.0" fill="#f6ee9d">+</text>
+<text x="1268" y="258" font-size="10.0" fill="#ece663">%</text>
+<text x="1274" y="258" font-size="10.0" fill="#efeb7f">#</text>
+<text x="980" y="268" font-size="10.0" fill="#fff6d6">-</text>
+<text x="986" y="268" font-size="10.0" fill="#feedaf">=</text>
+<text x="992" y="268" font-size="10.0" fill="#fde895">*</text>
+<text x="998" y="268" font-size="10.0" fill="#fef1c2">=</text>
+<text x="1004" y="268" font-size="10.0" fill="#fef0ba">=</text>
+<text x="1022" y="268" font-size="10.0" fill="#fff7da">:</text>
+<text x="1028" y="268" font-size="10.0" fill="#fbf4c6">-</text>
+<text x="1034" y="268" font-size="10.0" fill="#f3e671">%</text>
+<text x="1040" y="268" font-size="10.0" fill="#f3e46b">%</text>
+<text x="1046" y="268" font-size="10.0" fill="#f1e159">@</text>
+<text x="1052" y="268" font-size="10.0" fill="#f9efa7">+</text>
+<text x="1058" y="268" font-size="10.0" fill="#f5e36b">%</text>
+<text x="1064" y="268" font-size="10.0" fill="#f0dd45">@</text>
+<text x="1070" y="268" font-size="10.0" fill="#f6eb90">*</text>
+<text x="1076" y="268" font-size="10.0" fill="#f8eb97">*</text>
+<text x="1196" y="268" font-size="10.0" fill="#fbf4c4">-</text>
+<text x="1208" y="268" font-size="10.0" fill="#fde99b">+</text>
+<text x="1214" y="268" font-size="10.0" fill="#fbe88f">*</text>
+<text x="1220" y="268" font-size="10.0" fill="#faeb9a">+</text>
+<text x="1226" y="268" font-size="10.0" fill="#f9e064">%</text>
+<text x="1232" y="268" font-size="10.0" fill="#f7e26a">%</text>
+<text x="1238" y="268" font-size="10.0" fill="#faeea7">+</text>
+<text x="1244" y="268" font-size="10.0" fill="#fdf0ba" class="k" style="animation-duration:5.8s;animation-delay:-6.8s">=</text>
+<text x="1250" y="268" font-size="10.0" fill="#fdfae5">:</text>
+<text x="1256" y="268" font-size="10.0" fill="#f9e993">*</text>
+<text x="1262" y="268" font-size="10.0" fill="#f7e26d">%</text>
+<text x="1268" y="268" font-size="10.0" fill="#f8e372">#</text>
+<text x="1274" y="268" font-size="10.0" fill="#f8df5f">%</text>
+<text x="932" y="278" font-size="10.0" fill="#fff8e9">:</text>
+<text x="986" y="278" font-size="10.0" fill="#fff0c5">-</text>
+<text x="992" y="278" font-size="10.0" fill="#ffedbb">=</text>
+<text x="998" y="278" font-size="10.0" fill="#ffecb7">=</text>
+<text x="1004" y="278" font-size="10.0" fill="#ffe59c">+</text>
+<text x="1010" y="278" font-size="10.0" fill="#ffedbe">=</text>
+<text x="1016" y="278" font-size="10.0" fill="#fff6df">:</text>
+<text x="1022" y="278" font-size="10.0" fill="#fde590">*</text>
+<text x="1028" y="278" font-size="10.0" fill="#fbe688">*</text>
+<text x="1034" y="278" font-size="10.0" fill="#fbde65">%</text>
+<text x="1040" y="278" font-size="10.0" fill="#fbde62">%</text>
+<text x="1046" y="278" font-size="10.0" fill="#fbd53a">@</text>
+<text x="1052" y="278" font-size="10.0" fill="#fcd642">@</text>
+<text x="1058" y="278" font-size="10.0" fill="#fbd948">@</text>
+<text x="1064" y="278" font-size="10.0" fill="#fbe173">#</text>
+<text x="1070" y="278" font-size="10.0" fill="#fce485">#</text>
+<text x="1202" y="278" font-size="10.0" fill="#ffe7a1">+</text>
+<text x="1208" y="278" font-size="10.0" fill="#ffe697">*</text>
+<text x="1214" y="278" font-size="10.0" fill="#fff8e1">:</text>
+<text x="1226" y="278" font-size="10.0" fill="#fff8e2">:</text>
+<text x="1232" y="278" font-size="10.0" fill="#ffecb0" class="k" style="animation-duration:4.4s;animation-delay:-8.7s">=</text>
+<text x="1238" y="278" font-size="10.0" fill="#ffe184">#</text>
+<text x="1244" y="278" font-size="10.0" fill="#ffe38b">*</text>
+<text x="1250" y="278" font-size="10.0" fill="#ffecaf">=</text>
+<text x="1256" y="278" font-size="10.0" fill="#ffeaa8">+</text>
+<text x="1262" y="278" font-size="10.0" fill="#feeaac">+</text>
+<text x="1268" y="278" font-size="10.0" fill="#fed858">@</text>
+<text x="1274" y="278" font-size="10.0" fill="#fedb5f">%</text>
+<text x="902" y="288" font-size="10.0" fill="#fff5e4">:</text>
+<text x="908" y="288" font-size="10.0" fill="#fff6e8">:</text>
+<text x="992" y="288" font-size="10.0" fill="#ffe5ab">+</text>
+<text x="998" y="288" font-size="10.0" fill="#ffdf96">*</text>
+<text x="1004" y="288" font-size="10.0" fill="#ffdc78">#</text>
+<text x="1010" y="288" font-size="10.0" fill="#ffe08d" class="k" style="animation-duration:8.8s;animation-delay:-1.8s">*</text>
+<text x="1016" y="288" font-size="10.0" fill="#ffe299">*</text>
+<text x="1022" y="288" font-size="10.0" fill="#ffdf8a">*</text>
+<text x="1028" y="288" font-size="10.0" fill="#ffd355">@</text>
+<text x="1034" y="288" font-size="10.0" fill="#ffce3f">@</text>
+<text x="1040" y="288" font-size="10.0" fill="#fed146">@</text>
+<text x="1046" y="288" font-size="10.0" fill="#fee697">*</text>
+<text x="1052" y="288" font-size="10.0" fill="#ffd040">@</text>
+<text x="1058" y="288" font-size="10.0" fill="#ffe8a2">+</text>
+<text x="1064" y="288" font-size="10.0" fill="#fff0bd">=</text>
+<text x="1070" y="288" font-size="10.0" fill="#fff6d9">:</text>
+<text x="1202" y="288" font-size="10.0" fill="#fff9e8">:</text>
+<text x="1220" y="288" font-size="10.0" fill="#fff6dd">:</text>
+<text x="1226" y="288" font-size="10.0" fill="#ffebb8">=</text>
+<text x="1232" y="288" font-size="10.0" fill="#fff7e2">:</text>
+<text x="1238" y="288" font-size="10.0" fill="#ffeab3">=</text>
+<text x="1244" y="288" font-size="10.0" fill="#fff5dc">:</text>
+<text x="1250" y="288" font-size="10.0" fill="#ffe4a3">+</text>
+<text x="1256" y="288" font-size="10.0" fill="#ffeab6">=</text>
+<text x="1262" y="288" font-size="10.0" fill="#fff8e9">:</text>
+<text x="1268" y="288" font-size="10.0" fill="#ffe090">*</text>
+<text x="1274" y="288" font-size="10.0" fill="#ffe191">*</text>
+<text x="896" y="298" font-size="10.0" fill="#ffedd7">:</text>
+<text x="902" y="298" font-size="10.0" fill="#ffeed8">:</text>
+<text x="914" y="298" font-size="10.0" fill="#fff4e7">:</text>
+<text x="986" y="298" font-size="10.0" fill="#ffebbb">=</text>
+<text x="992" y="298" font-size="10.0" fill="#ffe2a0">+</text>
+<text x="998" y="298" font-size="10.0" fill="#ffcc5a">@</text>
+<text x="1004" y="298" font-size="10.0" fill="#ffc946">@</text>
+<text x="1010" y="298" font-size="10.0" fill="#ffd15b">@</text>
+<text x="1016" y="298" font-size="10.0" fill="#ffd774">#</text>
+<text x="1022" y="298" font-size="10.0" fill="#ffd36b">%</text>
+<text x="1028" y="298" font-size="10.0" fill="#ffc840">@</text>
+<text x="1034" y="298" font-size="10.0" fill="#ffc83d">@</text>
+<text x="1040" y="298" font-size="10.0" fill="#ffc430">@</text>
+<text x="1046" y="298" font-size="10.0" fill="#ffc83d">@</text>
+<text x="1052" y="298" font-size="10.0" fill="#ffc73e">@</text>
+<text x="1058" y="298" font-size="10.0" fill="#ffe29a">+</text>
+<text x="1064" y="298" font-size="10.0" fill="#ffe29f">+</text>
+<text x="1274" y="298" font-size="10.0" fill="#fff6e0">:</text>
+<text x="884" y="308" font-size="10.0" fill="#fff2e4">:</text>
+<text x="890" y="308" font-size="10.0" fill="#fff1e2">:</text>
+<text x="902" y="308" font-size="10.0" fill="#ffead5">-</text>
+<text x="986" y="308" font-size="10.0" fill="#fff6e0">:</text>
+<text x="992" y="308" font-size="10.0" fill="#fff0ce">-</text>
+<text x="998" y="308" font-size="10.0" fill="#ffe09e">+</text>
+<text x="1004" y="308" font-size="10.0" fill="#ffd487">*</text>
+<text x="1010" y="308" font-size="10.0" fill="#ffc655">@</text>
+<text x="1016" y="308" font-size="10.0" fill="#ffbe3c">@</text>
+<text x="1022" y="308" font-size="10.0" fill="#ffbb2b">@</text>
+<text x="1028" y="308" font-size="10.0" fill="#ffbc32">@</text>
+<text x="1034" y="308" font-size="10.0" fill="#ffdb91">*</text>
+<text x="1040" y="308" font-size="10.0" fill="#ffbc32">@</text>
+<text x="1046" y="308" font-size="10.0" fill="#ffbc35">@</text>
+<text x="1052" y="308" font-size="10.0" fill="#ffc650">@</text>
+<text x="1058" y="308" font-size="10.0" fill="#fff7e7">:</text>
+<text x="1064" y="308" font-size="10.0" fill="#ffe8bb">=</text>
+<text x="1238" y="308" font-size="10.0" fill="#fff4ea">:</text>
+<text x="1244" y="308" font-size="10.0" fill="#fff4e8">:</text>
+<text x="1250" y="308" font-size="10.0" fill="#ffe8cf">-</text>
+<text x="1256" y="308" font-size="10.0" fill="#ffedd9">:</text>
+<text x="878" y="318" font-size="10.0" fill="#fff1e6">:</text>
+<text x="902" y="318" font-size="10.0" fill="#ffe7d4" class="k" style="animation-duration:7.5s;animation-delay:-2.5s">-</text>
+<text x="908" y="318" font-size="10.0" fill="#fff0e3">:</text>
+<text x="980" y="318" font-size="10.0" fill="#ffcc74">#</text>
+<text x="986" y="318" font-size="10.0" fill="#ffd183">#</text>
+<text x="992" y="318" font-size="10.0" fill="#ffeccf">-</text>
+<text x="998" y="318" font-size="10.0" fill="#fff2de">:</text>
+<text x="1010" y="318" font-size="10.0" fill="#ffe6bf">=</text>
+<text x="1016" y="318" font-size="10.0" fill="#ffb739">@</text>
+<text x="1022" y="318" font-size="10.0" fill="#ffd38b">*</text>
+<text x="1028" y="318" font-size="10.0" fill="#ffce80">#</text>
+<text x="1034" y="318" font-size="10.0" fill="#ffdda5">+</text>
+<text x="1040" y="318" font-size="10.0" fill="#ffb43a">@</text>
+<text x="1046" y="318" font-size="10.0" fill="#ffb959">@</text>
+<text x="1052" y="318" font-size="10.0" fill="#ffd89c">+</text>
+<text x="1064" y="318" font-size="10.0" fill="#ffe0a9">+</text>
+<text x="1070" y="318" font-size="10.0" fill="#ffeccd">-</text>
+<text x="1238" y="318" font-size="10.0" fill="#fff0e2">:</text>
+<text x="1250" y="318" font-size="10.0" fill="#ffe8d4">-</text>
+<text x="866" y="328" font-size="10.0" fill="#ffe1cc">-</text>
+<text x="872" y="328" font-size="10.0" fill="#ffe0cb">-</text>
+<text x="962" y="328" font-size="10.0" fill="#fff5e8">:</text>
+<text x="968" y="328" font-size="10.0" fill="#ffbf63">%</text>
+<text x="974" y="328" font-size="10.0" fill="#ffeed5">-</text>
+<text x="980" y="328" font-size="10.0" fill="#ffedd1">-</text>
+<text x="986" y="328" font-size="10.0" fill="#ffb548">@</text>
+<text x="992" y="328" font-size="10.0" fill="#ffae39">@</text>
+<text x="998" y="328" font-size="10.0" fill="#ffc061">%</text>
+<text x="1004" y="328" font-size="10.0" fill="#ffaf3c">@</text>
+<text x="1010" y="328" font-size="10.0" fill="#ffbb57">@</text>
+<text x="1016" y="328" font-size="10.0" fill="#ffbc5c">@</text>
+<text x="1022" y="328" font-size="10.0" fill="#ffe7ca">-</text>
+<text x="1028" y="328" font-size="10.0" fill="#ffe1bd" class="k" style="animation-duration:3.8s;animation-delay:-4.8s">=</text>
+<text x="1034" y="328" font-size="10.0" fill="#ffbd6d">%</text>
+<text x="1040" y="328" font-size="10.0" fill="#ffcd95">*</text>
+<text x="1046" y="328" font-size="10.0" fill="#ffbb7c">#</text>
+<text x="1052" y="328" font-size="10.0" fill="#ffb95e">%</text>
+<text x="1058" y="328" font-size="10.0" fill="#ffe8cb">-</text>
+<text x="1220" y="328" font-size="10.0" fill="#ffe5d4">-</text>
+<text x="1244" y="328" font-size="10.0" fill="#ffe4d3">-</text>
+<text x="848" y="338" font-size="10.0" fill="#ffd5be">=</text>
+<text x="854" y="338" font-size="10.0" fill="#ffdcc9">-</text>
+<text x="860" y="338" font-size="10.0" fill="#ffece2" class="k" style="animation-duration:4.1s;animation-delay:-0.1s">:</text>
+<text x="878" y="338" font-size="10.0" fill="#ffd3bd">=</text>
+<text x="884" y="338" font-size="10.0" fill="#ffddcc">-</text>
+<text x="890" y="338" font-size="10.0" fill="#ffe5d9">:</text>
+<text x="938" y="338" font-size="10.0" fill="#ffebd5">-</text>
+<text x="944" y="338" font-size="10.0" fill="#ffb053">@</text>
+<text x="950" y="338" font-size="10.0" fill="#ffbf73">#</text>
+<text x="956" y="338" font-size="10.0" fill="#ffae51">@</text>
+<text x="962" y="338" font-size="10.0" fill="#ffedda">:</text>
+<text x="968" y="338" font-size="10.0" fill="#ffedd9">:</text>
+<text x="980" y="338" font-size="10.0" fill="#ffedd8">:</text>
+<text x="986" y="338" font-size="10.0" fill="#ffb156" class="k" style="animation-duration:5.6s;animation-delay:-5.6s">@</text>
+<text x="992" y="338" font-size="10.0" fill="#ffa743">@</text>
+<text x="998" y="338" font-size="10.0" fill="#ffa63c">@</text>
+<text x="1004" y="338" font-size="10.0" fill="#ffa12a">@</text>
+<text x="1010" y="338" font-size="10.0" fill="#ffa73e">@</text>
+<text x="1016" y="338" font-size="10.0" fill="#ffa441">@</text>
+<text x="1022" y="338" font-size="10.0" fill="#ffca93">*</text>
+<text x="1028" y="338" font-size="10.0" fill="#ffaf59">@</text>
+<text x="1034" y="338" font-size="10.0" fill="#ffc98a">*</text>
+<text x="1040" y="338" font-size="10.0" fill="#ffc589">*</text>
+<text x="1046" y="338" font-size="10.0" fill="#ffcfaf">=</text>
+<text x="1052" y="338" font-size="10.0" fill="#ffcaa4">+</text>
+<text x="1058" y="338" font-size="10.0" fill="#ffeee1">:</text>
+<text x="1214" y="338" font-size="10.0" fill="#ffefe8" class="k" style="animation-duration:6.9s;animation-delay:-8.1s">:</text>
+<text x="1238" y="338" font-size="10.0" fill="#ffe9df">:</text>
+</g>
+<rect class="walker" x="300" y="106.8" width="24.2" height="44.0" fill="#ff5a1f" opacity="0" style="--w:633.6px;animation:walk 1.20s steps(24) 1.57s both, during 1.20s 1.57s"/>
+<clipPath id="l1"><rect class="type" x="300" y="98" width="633.6" height="61.6" style="--w:633.6px;animation:type 1.20s steps(24) 1.57s both"/></clipPath>
+<text x="300" y="142" font-size="44" clip-path="url(#l1)" xml:space="preserve" textLength="633.6" lengthAdjust="spacing"><tspan fill="#24292f" font-weight="700">Engineering</tspan><tspan fill="#57606a" font-weight="400"> built around</tspan></text>
+<rect class="walker" x="300" y="160.8" width="24.2" height="44.0" fill="#ff5a1f" opacity="0" style="--w:396.0px;animation:walk 0.75s steps(15) 2.78s both, during 0.75s 2.78s"/>
+<clipPath id="l2"><rect class="type" x="300" y="152" width="396.0" height="61.6" style="--w:396.0px;animation:type 0.75s steps(15) 2.78s both"/></clipPath>
+<text x="300" y="196" font-size="44" clip-path="url(#l2)" xml:space="preserve" textLength="396.0" lengthAdjust="spacing"><tspan fill="#ff5a1f" font-weight="700">your challenges</tspan></text>
+<text class="later" style="animation-delay:3.63s" x="300" y="238" font-size="17" fill="#24292f" xml:space="preserve" textLength="459.0" lengthAdjust="spacing">Computer vision · 3D · AI · LLMs · Automation</text>
+<text class="later" style="animation-delay:3.83s" x="300" y="272" font-size="15" font-weight="700" fill="#ff5a1f">davidpadilla.eu</text>
+<linearGradient id="rainbow"><stop offset="0.00" stop-color="#4f8ff7"/><stop offset="0.20" stop-color="#5ac8d8"/><stop offset="0.40" stop-color="#8ee07a"/><stop offset="0.60" stop-color="#f5e663"/><stop offset="0.80" stop-color="#f7a541"/><stop offset="1.00" stop-color="#f2645a"/></linearGradient>
+<rect x="0" y="314" width="1280" height="6" fill="url(#rainbow)"/>
+</svg>
