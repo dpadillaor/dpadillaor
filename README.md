@@ -66,3 +66,23 @@ study for the whole picture: why it was hard, what I chose and what came out of 
 | <a href="https://davidpadilla.eu/en/projects/endoscopy-place-recognition/"><img src="assets/casos/endoscopia.jpg" width="180" alt=""></a> | **`endoscopy-place-recognition`**<br><sub>Private</sub> | Deep-learning place recognition in a real-time endoscopic SLAM, in C++.<br>[Case study](https://davidpadilla.eu/en/projects/endoscopy-place-recognition/) |
 | <a href="https://davidpadilla.eu/en/projects/water-meter-iot-platform/"><img src="assets/casos/contadores.jpg" width="180" alt=""></a> | **`water-meter-iot-platform`**<br><sub>Private</sub> | IoT platform for the remote reading and monitoring of water meters.<br>[Case study](https://davidpadilla.eu/en/projects/water-meter-iot-platform/) |
 | <a href="https://davidpadilla.eu/en/projects/enerforge-automation/"><img src="assets/casos/enerforge.jpg" width="180" alt=""></a> | **`enerforge-automation`**<br><sub>Private</sub> | AI-powered digitalisation and automation of an engineering firm.<br>[Case study](https://davidpadilla.eu/en/projects/enerforge-automation/) |
+
+Every project starts the same way: **a conversation about the problem**, before anyone mentions a model or a framework.
+From there comes a plan with **clear milestones**, so it's always obvious what comes next and when. Then the building, in
+steps you can see and test along the way, until it **runs on your hardware, with your data**, documented so your team can
+own it.
+
+So if you've got an idea going round your head, even a rough one, **I'd genuinely like to hear it.** Sometimes it turns
+into a project, sometimes it's just a good conversation. Either way, it's worth having. The same goes for **open source
+and community work**: if you're building something in the open, I'm always up for joining in.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dpadillaor/dpadillaor/activity/activity-dark.svg">
+  <img src="https://raw.githubusercontent.com/dpadillaor/dpadillaor/activity/activity-light.svg" alt="My activity on GitHub over the last year: a heatmap of contributions, what kind they are, and the languages I write across all my repositories. Then ./contact.sh: Have a project in mind? Let's talk. Website davidpadilla.eu, email me@davidpadilla.eu, LinkedIn in/david-padilla-orenga." width="100%">
+</picture>
+
+<p align="center">
+<a href="https://davidpadilla.eu"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/key-website-dark.svg"><img src="assets/buttons/key-website-light.svg" alt="Website: davidpadilla.eu"></picture></a>
+<a href="https://www.linkedin.com/in/david-padilla-orenga/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/key-linkedin-dark.svg"><img src="assets/buttons/key-linkedin-light.svg" alt="LinkedIn"></picture></a>
+<a href="mailto:me@davidpadilla.eu"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/key-email-dark.svg"><img src="assets/buttons/key-email-light.svg" alt="Email: me@davidpadilla.eu"></picture></a>
+</p>
