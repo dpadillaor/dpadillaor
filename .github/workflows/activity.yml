@@ -1,0 +1,52 @@
+# Redraws the activity terminal every day with fresh data and publishes it on the `activity` branch. That branch
+# holds only the images (a single commit, replaced each day), so main keeps only hand-made commits; the README links
+# to the images there.
+#
+# PROFILE_TOKEN: a fine-grained token of mine, read-only (Metadata: read, all repositories), so the scripts can see
+# the private repositories and contributions. The push uses the workflow's own GITHUB_TOKEN.
+name: activity
+
+on:
+  schedule:
+    - cron: "17 4 * * *"   # every day at 04:17 UTC
+  workflow_dispatch:         # the "Run workflow" button, to run it by hand
+
+permissions:
+  contents: write
+
+concurrency:
+  group: activity
+  cancel-in-progress: false
+
+jobs:
+  draw:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Draw
+        run: |
+          mkdir -p "$RUNNER_TEMP/activity"
+          python scripts/activity.py --out "$RUNNER_TEMP/activity"
+          cp assets/languages.json "$RUNNER_TEMP/activity/"
+        env:
+          GH_TOKEN: ${{ secrets.PROFILE_TOKEN }}
+      - name: Check the private repositories were counted
+        # without them the languages would be wrong: better to keep yesterday's images
+        run: |
+          python -c "import json, sys; sys.exit(json.load(open('assets/languages.json'))['private'] == 0 and
+            'PROFILE_TOKEN cannot see the private repositories')"
+      - name: Publish on the activity branch
+        working-directory: ${{ runner.temp }}/activity
+        run: |
+          git init -q -b activity
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add . && git commit -qm "Activity: $(date -u +%F)"
+          git push -f "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" activity
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
