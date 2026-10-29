@@ -44,3 +44,25 @@ and 3D, and LLMs and agents when the work is about documents and processes. The 
 other way round. I learned that the hard way, as an engineer in industry long before I specialised in AI. Want to
 know more about my career path and where that experience comes from? **[It's all on my
 website](https://davidpadilla.eu/en/about/)**.
+
+Tools are only half the story; what counts is what they end up doing. Most of my projects run inside companies and
+research groups, on their hardware and with their data, so the code stays with them and the story goes into a case
+study: the problem, the decisions and the result. A few are open source, and those are here in full, to read, run and
+build on.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/repos-dark.svg">
+  <img src="assets/repos-light.svg" alt="My projects. Public repositories: sfmkit, Structure from Motion written from the geometry up; OVO, open-vocabulary 3D semantic mapping with SLAM, my master's thesis. Private, told as case studies: place recognition in endoscopy, an IoT platform for water meters, AI automation for an engineering firm." width="100%">
+</picture>
+
+Behind every name there's **a real problem** that needed solving. The table below sums each one up in a line, so you can
+quickly find **the ones closest to what you're working on**. From there, open the code if it's public, or read the case
+study for the whole picture: why it was hard, what I chose and what came out of it.
+
+| | Project | What it is |
+|---|---|---|
+| <a href="https://github.com/dpadillaor/sfmkit"><img src="assets/casos/sfmkit.jpg" width="180" alt=""></a> | **`sfmkit`**<br><sub>Open source</sub> | Structure from Motion from scratch, to locate historical photos. Scored against COLMAP.<br>[Code](https://github.com/dpadillaor/sfmkit) · [Docs](https://dpadillaor.github.io/sfmkit/) · [Case study](https://davidpadilla.eu/en/projects/sfm-valencia-cathedral/) |
+| <a href="https://github.com/dpadillaor/OVO"><img src="assets/casos/ovo.jpg" width="180" alt=""></a> | **`OVO`**<br><sub>Open source</sub> | Open-vocabulary 3D semantic mapping with SLAM, with consistent object instances.<br>[Code](https://github.com/dpadillaor/OVO) · [Case study](https://davidpadilla.eu/en/projects/ovo-3d-instances/) |
+| <a href="https://davidpadilla.eu/en/projects/endoscopy-place-recognition/"><img src="assets/casos/endoscopia.jpg" width="180" alt=""></a> | **`endoscopy-place-recognition`**<br><sub>Private</sub> | Deep-learning place recognition in a real-time endoscopic SLAM, in C++.<br>[Case study](https://davidpadilla.eu/en/projects/endoscopy-place-recognition/) |
+| <a href="https://davidpadilla.eu/en/projects/water-meter-iot-platform/"><img src="assets/casos/contadores.jpg" width="180" alt=""></a> | **`water-meter-iot-platform`**<br><sub>Private</sub> | IoT platform for the remote reading and monitoring of water meters.<br>[Case study](https://davidpadilla.eu/en/projects/water-meter-iot-platform/) |
+| <a href="https://davidpadilla.eu/en/projects/enerforge-automation/"><img src="assets/casos/enerforge.jpg" width="180" alt=""></a> | **`enerforge-automation`**<br><sub>Private</sub> | AI-powered digitalisation and automation of an engineering firm.<br>[Case study](https://davidpadilla.eu/en/projects/enerforge-automation/) |
