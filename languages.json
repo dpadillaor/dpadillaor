@@ -1,0 +1,26 @@
+{
+ "shares": {
+  "Python": 45.4,
+  "TypeScript": 30.5,
+  "JavaScript": 8.3,
+  "Dart": 8.2,
+  "Astro": 4.4,
+  "C++": 2.7,
+  "Other": 0.4
+ },
+ "bytes": {
+  "Python": 2156772,
+  "TypeScript": 1450510,
+  "JavaScript": 393592,
+  "Dart": 391268,
+  "Astro": 206953,
+  "C++": 129418,
+  "CMake": 7673,
+  "Makefile": 5018,
+  "Dockerfile": 4183,
+  "Shell": 2406,
+  "Perl": 252
+ },
+ "repositories": 13,
+ "private": 9
+}
